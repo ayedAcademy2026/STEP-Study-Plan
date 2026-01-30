@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="theme-color" content="#f6c945"/>
+<link rel="manifest" href="../manifest.json"/>
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/brand/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/brand/favicon-16.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css"/>
+
+<title>متابعة التقييم — أكاديمية عايد STEP</title>
+</head>
+<body data-page="review-status">
+
+<div class="topbar">
+  <div class="container inner">
+    <a class="brand" href="./index.html">
+      <div class="mark"><svg viewBox="0 0 24 24" aria-hidden="true">
+<path fill="rgba(0,0,0,.85)" d="M12 2l2.3 6.7H21l-5.4 3.9 2.1 6.5L12 15.6 6.3 19.1 8.4 12.6 3 8.7h6.7L12 2z"/>
+</svg></div>
+      <div class="txt">
+        <div class="t1">أكاديمية عايد STEP</div>
+        <div class="t2">اختبار تحديد المستوى • STEP 2026</div>
+      </div>
+    </a>
+    <div class="nav" role="navigation" aria-label="القائمة">
+      <a href="./index.html">الرئيسية</a>
+      <a href="./quiz.html">الاختبار</a>
+      <a href="./reviews.html">التقييمات</a>
+      <a href="./faq.html">الأسئلة الشائعة</a>
+      <a href="./support.html">الدعم</a>
+    </div>
+    <button class="icon-btn" id="openMenu" aria-label="فتح القائمة">☰</button>
+  </div>
+</div>
+
+<div class="drawer-backdrop" id="drawerBack"></div>
+<div class="drawer card glass" id="drawer" aria-label="قائمة">
+  <header>
+    <div class="brand">
+      <div class="mark"><svg viewBox="0 0 24 24" aria-hidden="true">
+<path fill="rgba(0,0,0,.85)" d="M12 2l2.3 6.7H21l-5.4 3.9 2.1 6.5L12 15.6 6.3 19.1 8.4 12.6 3 8.7h6.7L12 2z"/>
+</svg></div>
+      <div class="txt">
+        <div class="t1">أكاديمية عايد STEP</div>
+        <div class="t2">تنقل سريع</div>
+      </div>
+    </div>
+    <button class="icon-btn" id="closeMenu" aria-label="إغلاق">×</button>
+  </header>
+  <nav>
+    <a href="./index.html">الرئيسية <small>تعريف + قصص نجاح + مؤشرات رضا</small></a>
+    <a href="./quiz.html">ابدأ الاختبار <small>تحديد مستوى + تحليل فوري</small></a>
+    <a href="./results.html">النتيجة والخطة <small>يظهر بعد الاختبار</small></a>
+    <a href="./reviews.html">تقييمات الطلاب <small>عرض + إضافة تقييم</small></a>
+    <a href="./faq.html">الأسئلة الشائعة <small>أجوبة سريعة</small></a>
+    <a href="./support.html">الدعم <small>تذكرة متابعة</small></a>
+  </nav>
+</div>
+
+<div class="install-banner" id="installBanner" role="status" aria-live="polite">
+  <div class="l">
+    <div class="i">📲</div>
+    <div>
+      <h4>تثبيت البرنامج</h4>
+      <p>ثبّت “اختبار STEP” على جهازك ليصير مثل تطبيق — أسرع وأسهل.</p>
+    </div>
+  </div>
+  <div class="a">
+    <button class="btn primary small" id="installBtn">تثبيت</button>
+    <button class="btn ghost small" id="installClose">لاحقًا</button>
+  </div>
+</div>
+
+<div class="toast-host" id="toastHost"></div>
+
+<button class="fab" id="fabAssistant" aria-label="مساعد واتساب">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.5 3.5A11 11 0 0 0 3.3 18.2L2 22l3.9-1.2A11 11 0 1 0 20.5 3.5Zm-8.5 17A9 9 0 0 1 6 18.9l-.4-.2-2.3.7.7-2.2-.2-.4A9 9 0 1 1 12 20.5Zm5-6.2c-.3-.1-1.8-.9-2.1-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a7.3 7.3 0 0 1-2.1-1.3 8 8 0 0 1-1.5-1.9c-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.1-.3.2-.4.1-.1 0-.3 0-.4s-.7-1.6-.9-2.2c-.2-.6-.4-.5-.7-.5H7c-.2 0-.4.1-.6.3s-.8.8-.8 2 .8 2.3.9 2.5c.1.2 1.6 2.5 3.9 3.5.5.2.9.3 1.2.4.5.2 1 .2 1.4.1.4-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4s-.3-.2-.6-.3Z"/>
+  </svg>
+</button>
+
+<div class="assistant card glass" id="assistant" aria-label="مساعد">
+  <div class="head">
+    <div class="who">
+      <div class="wa">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.3 18.2L2 22l3.9-1.2A11 11 0 1 0 20.5 3.5ZM12 20.5A9 9 0 0 1 6 18.9l-.4-.2-2.3.7.7-2.2-.2-.4A9 9 0 1 1 12 20.5Z"/></svg>
+      </div>
+      <div class="t">
+        <div class="n">مساعد الأكاديمية</div>
+        <div class="s" id="assistantStatus">متصل</div>
+      </div>
+    </div>
+    <button class="icon-btn" id="assistantClose" aria-label="إغلاق">×</button>
+  </div>
+  <div class="body">
+    <div class="qa">
+      <button class="chip" data-say="أبغى أبدأ الاختبار">ابدأ الاختبار</button>
+      <button class="chip" data-say="كيف تطلع الخطة؟">الخطة</button>
+      <button class="chip" data-say="أبغى روابط الدورات">روابط الدورات</button>
+      <button class="chip" data-say="أبغى الدعم">الدعم</button>
+    </div>
+    <div class="log" id="assistantLog"></div>
+    <div class="composer">
+      <input id="assistantInput" placeholder="اكتب استفسارك…"/>
+      <button class="btn small primary" id="assistantSend">إرسال</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="container section">
+  <div class="card pad glass">
+    <div class="title">
+      <h2>متابعة التقييم</h2>
+      <p>رقم الطلب + الحالة (Pending / Approved).</p>
+    </div>
+    <div class="sep"></div>
+
+    <div class="feature">
+      <div style="font-weight:900">Review ID: <span id="rid">—</span></div>
+      <div style="margin-top:10px" id="status" class="badge warn">…</div>
+      <div class="hint" style="margin-top:10px" id="note"></div>
+      <div id="local"></div>
+      <div class="sep"></div>
+      <a class="btn outline" href="./reviews.html">رجوع للتقييمات</a>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="../assets/main.js"></script>
+<script type="module" src="../assets/review-status.js"></script>
+</body>
+</html>
