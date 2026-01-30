@@ -1,0 +1,3452 @@
+[
+  {
+    "id": 1,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"appropriate\"",
+    "options": [
+      "fragile",
+      "awkward",
+      "suitable",
+      "illegal"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"appropriate\" is closest to \"suitable\"."
+  },
+  {
+    "id": 2,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"widespread\"",
+    "options": [
+      "silent",
+      "common",
+      "ancient",
+      "unique"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"widespread\" is closest to \"common\"."
+  },
+  {
+    "id": 3,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"anticipate\"",
+    "options": [
+      "repair",
+      "forget",
+      "divide",
+      "predict"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"anticipate\" is closest to \"predict\"."
+  },
+  {
+    "id": 4,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"anticipate\"",
+    "options": [
+      "predict",
+      "divide",
+      "forget",
+      "repair"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"anticipate\" is closest to \"predict\"."
+  },
+  {
+    "id": 5,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"widespread\"",
+    "options": [
+      "ancient",
+      "unique",
+      "silent",
+      "common"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"widespread\" is closest to \"common\"."
+  },
+  {
+    "id": 6,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"vital\"",
+    "options": [
+      "essential",
+      "rare",
+      "local",
+      "minor"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"vital\" is closest to \"essential\"."
+  },
+  {
+    "id": 7,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"maintain\"",
+    "options": [
+      "borrow",
+      "keep",
+      "guess",
+      "destroy"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"maintain\" is closest to \"keep\"."
+  },
+  {
+    "id": 8,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"avoid\"",
+    "options": [
+      "cause",
+      "prevent",
+      "permit",
+      "admire"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"avoid\" is closest to \"prevent\"."
+  },
+  {
+    "id": 9,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"appropriate\"",
+    "options": [
+      "fragile",
+      "suitable",
+      "illegal",
+      "awkward"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"appropriate\" is closest to \"suitable\"."
+  },
+  {
+    "id": 10,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"reinforce\"",
+    "options": [
+      "weaken",
+      "reject",
+      "erase",
+      "support"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"reinforce\" is closest to \"support\"."
+  },
+  {
+    "id": 11,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"decline\"",
+    "options": [
+      "increase",
+      "explain",
+      "refuse",
+      "build"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"decline\" is closest to \"refuse\"."
+  },
+  {
+    "id": 12,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"obvious\"",
+    "options": [
+      "formal",
+      "distant",
+      "clear",
+      "random"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"obvious\" is closest to \"clear\"."
+  },
+  {
+    "id": 13,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"challenging\"",
+    "options": [
+      "rude",
+      "difficult",
+      "cheap",
+      "simple"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"challenging\" is closest to \"difficult\"."
+  },
+  {
+    "id": 14,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"avoid\"",
+    "options": [
+      "admire",
+      "permit",
+      "prevent",
+      "cause"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"avoid\" is closest to \"prevent\"."
+  },
+  {
+    "id": 15,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"anticipate\"",
+    "options": [
+      "divide",
+      "repair",
+      "predict",
+      "forget"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"anticipate\" is closest to \"predict\"."
+  },
+  {
+    "id": 16,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"assist\"",
+    "options": [
+      "harm",
+      "argue",
+      "hide",
+      "help"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"assist\" is closest to \"help\"."
+  },
+  {
+    "id": 17,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"reinforce\"",
+    "options": [
+      "weaken",
+      "erase",
+      "support",
+      "reject"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"reinforce\" is closest to \"support\"."
+  },
+  {
+    "id": 18,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"vital\"",
+    "options": [
+      "essential",
+      "rare",
+      "local",
+      "minor"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"vital\" is closest to \"essential\"."
+  },
+  {
+    "id": 19,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"rapid\"",
+    "options": [
+      "fast",
+      "weak",
+      "dirty",
+      "late"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"rapid\" is closest to \"fast\"."
+  },
+  {
+    "id": 20,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"obvious\"",
+    "options": [
+      "clear",
+      "formal",
+      "random",
+      "distant"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"obvious\" is closest to \"clear\"."
+  },
+  {
+    "id": 21,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"enhance\"",
+    "options": [
+      "ignore",
+      "increase",
+      "reduce",
+      "delay"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"enhance\" is closest to \"increase\"."
+  },
+  {
+    "id": 22,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"assist\"",
+    "options": [
+      "argue",
+      "hide",
+      "help",
+      "harm"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"assist\" is closest to \"help\"."
+  },
+  {
+    "id": 23,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"vital\"",
+    "options": [
+      "minor",
+      "essential",
+      "rare",
+      "local"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"vital\" is closest to \"essential\"."
+  },
+  {
+    "id": 24,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"reinforce\"",
+    "options": [
+      "weaken",
+      "erase",
+      "support",
+      "reject"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"reinforce\" is closest to \"support\"."
+  },
+  {
+    "id": 25,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"avoid\"",
+    "options": [
+      "admire",
+      "cause",
+      "prevent",
+      "permit"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"avoid\" is closest to \"prevent\"."
+  },
+  {
+    "id": 26,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"assist\"",
+    "options": [
+      "harm",
+      "argue",
+      "hide",
+      "help"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"assist\" is closest to \"help\"."
+  },
+  {
+    "id": 27,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"significant\"",
+    "options": [
+      "narrow",
+      "important",
+      "silent",
+      "temporary"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"significant\" is closest to \"important\"."
+  },
+  {
+    "id": 28,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"vital\"",
+    "options": [
+      "local",
+      "minor",
+      "essential",
+      "rare"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"vital\" is closest to \"essential\"."
+  },
+  {
+    "id": 29,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"enhance\"",
+    "options": [
+      "reduce",
+      "delay",
+      "increase",
+      "ignore"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"enhance\" is closest to \"increase\"."
+  },
+  {
+    "id": 30,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"widespread\"",
+    "options": [
+      "unique",
+      "common",
+      "ancient",
+      "silent"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"widespread\" is closest to \"common\"."
+  },
+  {
+    "id": 31,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"vital\"",
+    "options": [
+      "rare",
+      "local",
+      "essential",
+      "minor"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"vital\" is closest to \"essential\"."
+  },
+  {
+    "id": 32,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"appropriate\"",
+    "options": [
+      "illegal",
+      "fragile",
+      "suitable",
+      "awkward"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"appropriate\" is closest to \"suitable\"."
+  },
+  {
+    "id": 33,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"assist\"",
+    "options": [
+      "help",
+      "argue",
+      "harm",
+      "hide"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"assist\" is closest to \"help\"."
+  },
+  {
+    "id": 34,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"reinforce\"",
+    "options": [
+      "weaken",
+      "reject",
+      "erase",
+      "support"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"reinforce\" is closest to \"support\"."
+  },
+  {
+    "id": 35,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"appropriate\"",
+    "options": [
+      "illegal",
+      "suitable",
+      "awkward",
+      "fragile"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"appropriate\" is closest to \"suitable\"."
+  },
+  {
+    "id": 36,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"maintain\"",
+    "options": [
+      "keep",
+      "guess",
+      "borrow",
+      "destroy"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"maintain\" is closest to \"keep\"."
+  },
+  {
+    "id": 37,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"appropriate\"",
+    "options": [
+      "awkward",
+      "illegal",
+      "fragile",
+      "suitable"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"appropriate\" is closest to \"suitable\"."
+  },
+  {
+    "id": 38,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"diminish\"",
+    "options": [
+      "expand",
+      "celebrate",
+      "reduce",
+      "repeat"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"diminish\" is closest to \"reduce\"."
+  },
+  {
+    "id": 39,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"widespread\"",
+    "options": [
+      "common",
+      "ancient",
+      "silent",
+      "unique"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"widespread\" is closest to \"common\"."
+  },
+  {
+    "id": 40,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"reluctant\"",
+    "options": [
+      "unwilling",
+      "certain",
+      "eager",
+      "relaxed"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"reluctant\" is closest to \"unwilling\"."
+  },
+  {
+    "id": 41,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"anticipate\"",
+    "options": [
+      "forget",
+      "repair",
+      "predict",
+      "divide"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"anticipate\" is closest to \"predict\"."
+  },
+  {
+    "id": 42,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"vital\"",
+    "options": [
+      "essential",
+      "rare",
+      "minor",
+      "local"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"vital\" is closest to \"essential\"."
+  },
+  {
+    "id": 43,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"decline\"",
+    "options": [
+      "increase",
+      "refuse",
+      "explain",
+      "build"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"decline\" is closest to \"refuse\"."
+  },
+  {
+    "id": 44,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"reluctant\"",
+    "options": [
+      "relaxed",
+      "certain",
+      "unwilling",
+      "eager"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"reluctant\" is closest to \"unwilling\"."
+  },
+  {
+    "id": 45,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"refine\"",
+    "options": [
+      "improve",
+      "postpone",
+      "hide",
+      "damage"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"refine\" is closest to \"improve\"."
+  },
+  {
+    "id": 46,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"appropriate\"",
+    "options": [
+      "awkward",
+      "fragile",
+      "illegal",
+      "suitable"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"appropriate\" is closest to \"suitable\"."
+  },
+  {
+    "id": 47,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"widespread\"",
+    "options": [
+      "common",
+      "ancient",
+      "silent",
+      "unique"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"widespread\" is closest to \"common\"."
+  },
+  {
+    "id": 48,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"diminish\"",
+    "options": [
+      "reduce",
+      "expand",
+      "repeat",
+      "celebrate"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"diminish\" is closest to \"reduce\"."
+  },
+  {
+    "id": 49,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"maintain\"",
+    "options": [
+      "destroy",
+      "keep",
+      "guess",
+      "borrow"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"maintain\" is closest to \"keep\"."
+  },
+  {
+    "id": 50,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"widespread\"",
+    "options": [
+      "common",
+      "silent",
+      "ancient",
+      "unique"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "\"widespread\" is closest to \"common\"."
+  },
+  {
+    "id": 51,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"avoid\"",
+    "options": [
+      "admire",
+      "cause",
+      "permit",
+      "prevent"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"avoid\" is closest to \"prevent\"."
+  },
+  {
+    "id": 52,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"avoid\"",
+    "options": [
+      "permit",
+      "admire",
+      "cause",
+      "prevent"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"avoid\" is closest to \"prevent\"."
+  },
+  {
+    "id": 53,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"diminish\"",
+    "options": [
+      "celebrate",
+      "reduce",
+      "repeat",
+      "expand"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"diminish\" is closest to \"reduce\"."
+  },
+  {
+    "id": 54,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"appropriate\"",
+    "options": [
+      "fragile",
+      "illegal",
+      "suitable",
+      "awkward"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "\"appropriate\" is closest to \"suitable\"."
+  },
+  {
+    "id": 55,
+    "section": "Vocabulary",
+    "difficulty": 3,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"rapid\"",
+    "options": [
+      "late",
+      "dirty",
+      "weak",
+      "fast"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"rapid\" is closest to \"fast\"."
+  },
+  {
+    "id": 56,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"rapid\"",
+    "options": [
+      "weak",
+      "dirty",
+      "late",
+      "fast"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"rapid\" is closest to \"fast\"."
+  },
+  {
+    "id": 57,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"appropriate\"",
+    "options": [
+      "illegal",
+      "suitable",
+      "awkward",
+      "fragile"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"appropriate\" is closest to \"suitable\"."
+  },
+  {
+    "id": 58,
+    "section": "Vocabulary",
+    "difficulty": 2,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"reliable\"",
+    "options": [
+      "angry",
+      "similar",
+      "careless",
+      "dependable"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"reliable\" is closest to \"dependable\"."
+  },
+  {
+    "id": 59,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"avoid\"",
+    "options": [
+      "admire",
+      "prevent",
+      "permit",
+      "cause"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "\"avoid\" is closest to \"prevent\"."
+  },
+  {
+    "id": 60,
+    "section": "Vocabulary",
+    "difficulty": 4,
+    "skillTag": "synonym",
+    "prompt": "Choose the closest meaning to: \"refine\"",
+    "options": [
+      "damage",
+      "hide",
+      "postpone",
+      "improve"
+    ],
+    "correctIndex": 3,
+    "explanationShort": "\"refine\" is closest to \"improve\"."
+  },
+  {
+    "id": 61,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "She bought ___ umbrella because it was raining.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Umbrella starts with a vowel sound → an."
+  },
+  {
+    "id": 62,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "The meeting was canceled ___ the storm.",
+    "options": [
+      "because",
+      "because of",
+      "although",
+      "unless"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Because of + noun."
+  },
+  {
+    "id": 63,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "I prefer tea ___ coffee.",
+    "options": [
+      "to",
+      "than",
+      "with",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Prefer A to B."
+  },
+  {
+    "id": 64,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "I prefer tea ___ coffee.",
+    "options": [
+      "to",
+      "than",
+      "with",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Prefer A to B."
+  },
+  {
+    "id": 65,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "I prefer tea ___ coffee.",
+    "options": [
+      "to",
+      "than",
+      "with",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Prefer A to B."
+  },
+  {
+    "id": 66,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "She bought ___ umbrella because it was raining.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Umbrella starts with a vowel sound → an."
+  },
+  {
+    "id": 67,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "I prefer tea ___ coffee.",
+    "options": [
+      "to",
+      "than",
+      "with",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Prefer A to B."
+  },
+  {
+    "id": 68,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "She bought ___ umbrella because it was raining.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Umbrella starts with a vowel sound → an."
+  },
+  {
+    "id": 69,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "She is responsible ___ the final report.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "at"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Responsible for + noun."
+  },
+  {
+    "id": 70,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "By this time tomorrow, we ___ the project.",
+    "options": [
+      "finish",
+      "will finish",
+      "will have finished",
+      "finished"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Future perfect for completion before a future time."
+  },
+  {
+    "id": 71,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "This is the first time I ___ such a place.",
+    "options": [
+      "visit",
+      "visited",
+      "have visited",
+      "had visited"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "First time + present perfect."
+  },
+  {
+    "id": 72,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "You ___ wear a seatbelt. It's the law.",
+    "options": [
+      "might",
+      "must",
+      "could",
+      "may"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Must = obligation."
+  },
+  {
+    "id": 73,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "Hardly had he arrived ___ it started to rain.",
+    "options": [
+      "than",
+      "when",
+      "while",
+      "so"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Hardly...when."
+  },
+  {
+    "id": 74,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "I prefer tea ___ coffee.",
+    "options": [
+      "to",
+      "than",
+      "with",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Prefer A to B."
+  },
+  {
+    "id": 75,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "Neither the teacher nor the students ___ late.",
+    "options": [
+      "was",
+      "were",
+      "is",
+      "be"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Verb agrees with the nearest subject (students → were)."
+  },
+  {
+    "id": 76,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "The results were ___ than expected.",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "well"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Comparative: better."
+  },
+  {
+    "id": 77,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "Hardly had he arrived ___ it started to rain.",
+    "options": [
+      "than",
+      "when",
+      "while",
+      "so"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Hardly...when."
+  },
+  {
+    "id": 78,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "She is responsible ___ the final report.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "at"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Responsible for + noun."
+  },
+  {
+    "id": 79,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "Hardly had he arrived ___ it started to rain.",
+    "options": [
+      "than",
+      "when",
+      "while",
+      "so"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Hardly...when."
+  },
+  {
+    "id": 80,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "You ___ wear a seatbelt. It's the law.",
+    "options": [
+      "might",
+      "must",
+      "could",
+      "may"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Must = obligation."
+  },
+  {
+    "id": 81,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "If I ___ enough time, I will help you.",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "First conditional: If + present, will + base."
+  },
+  {
+    "id": 82,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "You ___ wear a seatbelt. It's the law.",
+    "options": [
+      "might",
+      "must",
+      "could",
+      "may"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Must = obligation."
+  },
+  {
+    "id": 83,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "The results were ___ than expected.",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "well"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Comparative: better."
+  },
+  {
+    "id": 84,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "She is responsible ___ the final report.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "at"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Responsible for + noun."
+  },
+  {
+    "id": 85,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "If I ___ enough time, I will help you.",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "First conditional: If + present, will + base."
+  },
+  {
+    "id": 86,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "The book ___ I borrowed is excellent.",
+    "options": [
+      "who",
+      "which",
+      "where",
+      "when"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "For things, use which/that."
+  },
+  {
+    "id": 87,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "Hardly had he arrived ___ it started to rain.",
+    "options": [
+      "than",
+      "when",
+      "while",
+      "so"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Hardly...when."
+  },
+  {
+    "id": 88,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "How ___ information do you need?",
+    "options": [
+      "many",
+      "much",
+      "few",
+      "several"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Information is uncountable → much."
+  },
+  {
+    "id": 89,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "She bought ___ umbrella because it was raining.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Umbrella starts with a vowel sound → an."
+  },
+  {
+    "id": 90,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "This is the first time I ___ such a place.",
+    "options": [
+      "visit",
+      "visited",
+      "have visited",
+      "had visited"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "First time + present perfect."
+  },
+  {
+    "id": 91,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "By this time tomorrow, we ___ the project.",
+    "options": [
+      "finish",
+      "will finish",
+      "will have finished",
+      "finished"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Future perfect for completion before a future time."
+  },
+  {
+    "id": 92,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "She is responsible ___ the final report.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "at"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Responsible for + noun."
+  },
+  {
+    "id": 93,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "How ___ information do you need?",
+    "options": [
+      "many",
+      "much",
+      "few",
+      "several"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Information is uncountable → much."
+  },
+  {
+    "id": 94,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "She bought ___ umbrella because it was raining.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Umbrella starts with a vowel sound → an."
+  },
+  {
+    "id": 95,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "The meeting was canceled ___ the storm.",
+    "options": [
+      "because",
+      "because of",
+      "although",
+      "unless"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Because of + noun."
+  },
+  {
+    "id": 96,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "The results were ___ than expected.",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "well"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Comparative: better."
+  },
+  {
+    "id": 97,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "The book ___ I borrowed is excellent.",
+    "options": [
+      "who",
+      "which",
+      "where",
+      "when"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "For things, use which/that."
+  },
+  {
+    "id": 98,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "She bought ___ umbrella because it was raining.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Umbrella starts with a vowel sound → an."
+  },
+  {
+    "id": 99,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "Hardly had he arrived ___ it started to rain.",
+    "options": [
+      "than",
+      "when",
+      "while",
+      "so"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Hardly...when."
+  },
+  {
+    "id": 100,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "The book ___ I borrowed is excellent.",
+    "options": [
+      "who",
+      "which",
+      "where",
+      "when"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "For things, use which/that."
+  },
+  {
+    "id": 101,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "The meeting was canceled ___ the storm.",
+    "options": [
+      "because",
+      "because of",
+      "although",
+      "unless"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Because of + noun."
+  },
+  {
+    "id": 102,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "This is the first time I ___ such a place.",
+    "options": [
+      "visit",
+      "visited",
+      "have visited",
+      "had visited"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "First time + present perfect."
+  },
+  {
+    "id": 103,
+    "section": "Grammar",
+    "difficulty": 4,
+    "skillTag": "grammar",
+    "prompt": "The book ___ I borrowed is excellent.",
+    "options": [
+      "who",
+      "which",
+      "where",
+      "when"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "For things, use which/that."
+  },
+  {
+    "id": 104,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "The results were ___ than expected.",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "well"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Comparative: better."
+  },
+  {
+    "id": 105,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "I prefer tea ___ coffee.",
+    "options": [
+      "to",
+      "than",
+      "with",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Prefer A to B."
+  },
+  {
+    "id": 106,
+    "section": "Grammar",
+    "difficulty": 2,
+    "skillTag": "grammar",
+    "prompt": "The meeting was canceled ___ the storm.",
+    "options": [
+      "because",
+      "because of",
+      "although",
+      "unless"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Because of + noun."
+  },
+  {
+    "id": 107,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "This is the first time I ___ such a place.",
+    "options": [
+      "visit",
+      "visited",
+      "have visited",
+      "had visited"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "First time + present perfect."
+  },
+  {
+    "id": 108,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "You ___ wear a seatbelt. It's the law.",
+    "options": [
+      "might",
+      "must",
+      "could",
+      "may"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Must = obligation."
+  },
+  {
+    "id": 109,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "Hardly had he arrived ___ it started to rain.",
+    "options": [
+      "than",
+      "when",
+      "while",
+      "so"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Hardly...when."
+  },
+  {
+    "id": 110,
+    "section": "Grammar",
+    "difficulty": 3,
+    "skillTag": "grammar",
+    "prompt": "The student, along with his friends, ___ joining the club.",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Along with... does not change singular subject → is."
+  },
+  {
+    "id": 111,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The streets were wet, and people carried umbrellas as they hurried into shops.\"\nQuestion: What can we infer?",
+    "options": [
+      "It probably rained",
+      "It was snowing heavily",
+      "It was very hot",
+      "There was a parade"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Wet streets + umbrellas → rain is the best inference."
+  },
+  {
+    "id": 112,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The streets were wet, and people carried umbrellas as they hurried into shops.\"\nQuestion: What can we infer?",
+    "options": [
+      "It probably rained",
+      "It was snowing heavily",
+      "It was very hot",
+      "There was a parade"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Wet streets + umbrellas → rain is the best inference."
+  },
+  {
+    "id": 113,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 114,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The streets were wet, and people carried umbrellas as they hurried into shops.\"\nQuestion: What can we infer?",
+    "options": [
+      "It probably rained",
+      "It was snowing heavily",
+      "It was very hot",
+      "There was a parade"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Wet streets + umbrellas → rain is the best inference."
+  },
+  {
+    "id": 115,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Many cities are planting trees to lower temperatures. Trees provide shade and release moisture, which can cool nearby streets.\"\nQuestion: What is the purpose of planting trees?",
+    "options": [
+      "To reduce heat in cities",
+      "To block all sunlight",
+      "To increase traffic",
+      "To remove buildings"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage explains cooling effects via shade and moisture."
+  },
+  {
+    "id": 116,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 117,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 118,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 119,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The streets were wet, and people carried umbrellas as they hurried into shops.\"\nQuestion: What can we infer?",
+    "options": [
+      "It probably rained",
+      "It was snowing heavily",
+      "It was very hot",
+      "There was a parade"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Wet streets + umbrellas → rain is the best inference."
+  },
+  {
+    "id": 120,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Many cities are planting trees to lower temperatures. Trees provide shade and release moisture, which can cool nearby streets.\"\nQuestion: What is the purpose of planting trees?",
+    "options": [
+      "To reduce heat in cities",
+      "To block all sunlight",
+      "To increase traffic",
+      "To remove buildings"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage explains cooling effects via shade and moisture."
+  },
+  {
+    "id": 121,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 122,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 123,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The streets were wet, and people carried umbrellas as they hurried into shops.\"\nQuestion: What can we infer?",
+    "options": [
+      "It probably rained",
+      "It was snowing heavily",
+      "It was very hot",
+      "There was a parade"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Wet streets + umbrellas → rain is the best inference."
+  },
+  {
+    "id": 124,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Many cities are planting trees to lower temperatures. Trees provide shade and release moisture, which can cool nearby streets.\"\nQuestion: What is the purpose of planting trees?",
+    "options": [
+      "To reduce heat in cities",
+      "To block all sunlight",
+      "To increase traffic",
+      "To remove buildings"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage explains cooling effects via shade and moisture."
+  },
+  {
+    "id": 125,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 126,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 127,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 128,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 129,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 130,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 131,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 132,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Many cities are planting trees to lower temperatures. Trees provide shade and release moisture, which can cool nearby streets.\"\nQuestion: What is the purpose of planting trees?",
+    "options": [
+      "To reduce heat in cities",
+      "To block all sunlight",
+      "To increase traffic",
+      "To remove buildings"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage explains cooling effects via shade and moisture."
+  },
+  {
+    "id": 133,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 134,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 135,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 136,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 137,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 138,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Many cities are planting trees to lower temperatures. Trees provide shade and release moisture, which can cool nearby streets.\"\nQuestion: What is the purpose of planting trees?",
+    "options": [
+      "To reduce heat in cities",
+      "To block all sunlight",
+      "To increase traffic",
+      "To remove buildings"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage explains cooling effects via shade and moisture."
+  },
+  {
+    "id": 139,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 140,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 141,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 142,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 143,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The streets were wet, and people carried umbrellas as they hurried into shops.\"\nQuestion: What can we infer?",
+    "options": [
+      "It probably rained",
+      "It was snowing heavily",
+      "It was very hot",
+      "There was a parade"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Wet streets + umbrellas → rain is the best inference."
+  },
+  {
+    "id": 144,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 145,
+    "section": "Reading",
+    "difficulty": 4,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 146,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The streets were wet, and people carried umbrellas as they hurried into shops.\"\nQuestion: What can we infer?",
+    "options": [
+      "It probably rained",
+      "It was snowing heavily",
+      "It was very hot",
+      "There was a parade"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Wet streets + umbrellas → rain is the best inference."
+  },
+  {
+    "id": 147,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Many cities are planting trees to lower temperatures. Trees provide shade and release moisture, which can cool nearby streets.\"\nQuestion: What is the purpose of planting trees?",
+    "options": [
+      "To reduce heat in cities",
+      "To block all sunlight",
+      "To increase traffic",
+      "To remove buildings"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage explains cooling effects via shade and moisture."
+  },
+  {
+    "id": 148,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Many cities are planting trees to lower temperatures. Trees provide shade and release moisture, which can cool nearby streets.\"\nQuestion: What is the purpose of planting trees?",
+    "options": [
+      "To reduce heat in cities",
+      "To block all sunlight",
+      "To increase traffic",
+      "To remove buildings"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage explains cooling effects via shade and moisture."
+  },
+  {
+    "id": 149,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading",
+    "prompt": "Passage: \"The new library system reduced waiting times by automating checkouts and reminders. However, some users needed training to use the app.\"\nQuestion: Which statement is true?",
+    "options": [
+      "Waiting times decreased",
+      "All users disliked the app",
+      "Automation increased delays",
+      "Training was unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "It explicitly says reduced waiting times; training was needed."
+  },
+  {
+    "id": 150,
+    "section": "Reading",
+    "difficulty": 2,
+    "skillTag": "reading",
+    "prompt": "Passage: \"Regular exercise improves mood and sleep. It also supports heart health.\"\nQuestion: Main idea?",
+    "options": [
+      "Exercise has multiple health benefits",
+      "Sleep is unnecessary",
+      "Mood depends only on food",
+      "Heart health is unrelated"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "The passage lists several benefits → main idea is overall benefits."
+  },
+  {
+    "id": 151,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,gist",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nWoman: Excuse me, is the library open late tonight?\nMan: Yes, we're extending hours because finals start next week. We'll be open until midnight.\nWoman: Great. And can I return books at the desk after 10?\nMan: After 10 p.m., returns go in the drop box by the entrance.\n\nQuestion: What is the main reason the library is open until midnight?",
+    "options": [
+      "A special guest lecture",
+      "Final exams are approaching",
+      "A power outage earlier",
+      "The library is being renovated"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "He says they are extending hours because finals start next week."
+  },
+  {
+    "id": 152,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nWoman: Excuse me, is the library open late tonight?\nMan: Yes, we're extending hours because finals start next week. We'll be open until midnight.\nWoman: Great. And can I return books at the desk after 10?\nMan: After 10 p.m., returns go in the drop box by the entrance.\n\nQuestion: Where should the woman return books after 10 p.m.?",
+    "options": [
+      "At the front desk",
+      "At the information booth",
+      "In the drop box near the entrance",
+      "At the security office"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "He explains that after 10 p.m. returns go in the drop box by the entrance."
+  },
+  {
+    "id": 153,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nReceptionist: Dr. Lee can see you at 3:00, but there may be a short wait.\nPatient: I have a meeting at 4. Is there an earlier slot?\nReceptionist: The only earlier one is 1:30, but it's for a quick follow-up.\nPatient: That's fine. I just need my prescription renewed.\n\nQuestion: Why does the patient want an earlier appointment?",
+    "options": [
+      "He is feeling worse",
+      "He has a meeting later",
+      "He forgot his insurance card",
+      "He needs a full checkup"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "He says he has a meeting at 4."
+  },
+  {
+    "id": 154,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nReceptionist: Dr. Lee can see you at 3:00, but there may be a short wait.\nPatient: I have a meeting at 4. Is there an earlier slot?\nReceptionist: The only earlier one is 1:30, but it's for a quick follow-up.\nPatient: That's fine. I just need my prescription renewed.\n\nQuestion: What will the patient likely do at the 1:30 appointment?",
+    "options": [
+      "Discuss test results",
+      "Renew a prescription",
+      "Get a flu shot",
+      "Schedule surgery"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "He says he just needs his prescription renewed."
+  },
+  {
+    "id": 155,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nAnnouncement: Attention passengers on Flight 218 to Riyadh. Due to strong winds, departure has been delayed by 45 minutes. Please remain near Gate 12. If you need to rebook a connection, visit the service desk across from the gate.\n\nQuestion: What is causing the delay?",
+    "options": [
+      "A mechanical problem",
+      "Strong winds",
+      "Overbooking",
+      "A late crew arrival"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "The announcement says 'Due to strong winds.'"
+  },
+  {
+    "id": 156,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nAnnouncement: Attention passengers on Flight 218 to Riyadh. Due to strong winds, departure has been delayed by 45 minutes. Please remain near Gate 12. If you need to rebook a connection, visit the service desk across from the gate.\n\nQuestion: Where should passengers go to rebook a connection?",
+    "options": [
+      "Gate 10",
+      "The baggage claim office",
+      "The service desk across from the gate",
+      "The airline website only"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "It instructs passengers to visit the service desk across from the gate."
+  },
+  {
+    "id": 157,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nStudent A: We need to divide the tasks. I can handle the introduction and the slides.\nStudent B: I'll do the data analysis, but I need the survey results by Friday.\nStudent C: I can summarize the literature, but I may need help with citations.\nStudent A: No problem. We'll check everything together on Sunday.\n\nQuestion: What does Student B need by Friday?",
+    "options": [
+      "The introduction draft",
+      "Survey results",
+      "Citation guidelines",
+      "Slide templates"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Student B says he needs the survey results by Friday."
+  },
+  {
+    "id": 158,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nStudent A: We need to divide the tasks. I can handle the introduction and the slides.\nStudent B: I'll do the data analysis, but I need the survey results by Friday.\nStudent C: I can summarize the literature, but I may need help with citations.\nStudent A: No problem. We'll check everything together on Sunday.\n\nQuestion: When will the group review everything together?",
+    "options": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Next Monday"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Student A says they'll check everything together on Sunday."
+  },
+  {
+    "id": 159,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nGuest: I booked a room online, but I think I chose the wrong dates.\nClerk: Let me check… You reserved May 12 to May 14.\nGuest: I actually need May 19 to May 21.\nClerk: We can change it, but the weekend rate is slightly higher.\nGuest: That's okay. Please update it.\n\nQuestion: What is the guest's problem?",
+    "options": [
+      "He lost his confirmation number",
+      "He chose the wrong room type",
+      "He booked the wrong dates",
+      "He wants to cancel the booking"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "He says he chose the wrong dates."
+  },
+  {
+    "id": 160,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nGuest: I booked a room online, but I think I chose the wrong dates.\nClerk: Let me check… You reserved May 12 to May 14.\nGuest: I actually need May 19 to May 21.\nClerk: We can change it, but the weekend rate is slightly higher.\nGuest: That's okay. Please update it.\n\nQuestion: What will happen if the reservation is changed?",
+    "options": [
+      "The room will be smaller",
+      "The rate will be slightly higher",
+      "Breakfast will not be included",
+      "The guest must pay a penalty fee"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "The clerk says the weekend rate is slightly higher."
+  },
+  {
+    "id": 161,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nMan: I'm thinking about joining, but I'm not sure if the membership includes classes.\nStaff: The basic plan includes gym access only. Classes are included in the premium plan.\nMan: How much extra is premium?\nStaff: It's 60 riyals more per month.\n\nQuestion: What does the basic plan include?",
+    "options": [
+      "Gym access only",
+      "All classes",
+      "Personal training",
+      "Pool access only"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "She says the basic plan includes gym access only."
+  },
+  {
+    "id": 162,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nMan: I'm thinking about joining, but I'm not sure if the membership includes classes.\nStaff: The basic plan includes gym access only. Classes are included in the premium plan.\nMan: How much extra is premium?\nStaff: It's 60 riyals more per month.\n\nQuestion: How much more does the premium plan cost per month?",
+    "options": [
+      "30 riyals",
+      "40 riyals",
+      "60 riyals",
+      "90 riyals"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Staff says premium is 60 riyals more per month."
+  },
+  {
+    "id": 163,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: Excuse me, I ordered soup, but this is cold.\nWaiter: I'm sorry. I can bring you a fresh bowl or warm it up.\nCustomer: A fresh bowl, please. And could you bring the bread again?\nWaiter: Of course. I'll be right back.\n\nQuestion: What is the customer's complaint?",
+    "options": [
+      "The soup is too salty",
+      "The soup is cold",
+      "The bread is stale",
+      "The order is wrong"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "He says the soup is cold."
+  },
+  {
+    "id": 164,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: Excuse me, I ordered soup, but this is cold.\nWaiter: I'm sorry. I can bring you a fresh bowl or warm it up.\nCustomer: A fresh bowl, please. And could you bring the bread again?\nWaiter: Of course. I'll be right back.\n\nQuestion: What does the customer request in addition to a fresh bowl?",
+    "options": [
+      "A refund",
+      "A drink",
+      "Bread again",
+      "A different table"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Customer asks for the bread again."
+  },
+  {
+    "id": 165,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nInterviewer: This role requires occasional weekend work. Is that a problem?\nCandidate: Not at all. I'm flexible, but I'd like at least a week's notice.\nInterviewer: That's reasonable. We schedule shifts two weeks in advance.\n\nQuestion: What concern does the interviewer raise?",
+    "options": [
+      "Long commute",
+      "Weekend work",
+      "Low salary",
+      "No training"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Interviewer mentions occasional weekend work."
+  },
+  {
+    "id": 166,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nInterviewer: This role requires occasional weekend work. Is that a problem?\nCandidate: Not at all. I'm flexible, but I'd like at least a week's notice.\nInterviewer: That's reasonable. We schedule shifts two weeks in advance.\n\nQuestion: What does the candidate want?",
+    "options": [
+      "Higher pay",
+      "A week’s notice",
+      "No weekend shifts",
+      "Remote work"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Candidate asks for at least a week’s notice."
+  },
+  {
+    "id": 167,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: My package says 'delivered,' but I didn't receive it.\nAgent: Let me confirm the address. Was it sent to Apartment 3B?\nCustomer: It should be 3D.\nAgent: I see. We'll open an investigation and send a replacement if needed.\n\nQuestion: What is the likely reason the customer didn't receive the package?",
+    "options": [
+      "The package was damaged",
+      "The address was incorrect",
+      "The payment failed",
+      "The store ran out of stock"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "The apartment number is wrong (3B vs 3D)."
+  },
+  {
+    "id": 168,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: My package says 'delivered,' but I didn't receive it.\nAgent: Let me confirm the address. Was it sent to Apartment 3B?\nCustomer: It should be 3D.\nAgent: I see. We'll open an investigation and send a replacement if needed.\n\nQuestion: What will the agent do next?",
+    "options": [
+      "Cancel the order",
+      "Open an investigation",
+      "Ask the customer to reorder",
+      "Charge an extra fee"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Agent says they’ll open an investigation."
+  },
+  {
+    "id": 169,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nAdvisor: The course you want is full, but there's a waiting list.\nStudent: How likely is it to get in?\nAdvisor: Usually a few students drop during the first week.\nStudent: Then I'll join the list and attend the first class anyway.\n\nQuestion: Why can't the student enroll immediately?",
+    "options": [
+      "The course is cancelled",
+      "The course is full",
+      "The student lacks prerequisites",
+      "The schedule conflicts"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Advisor says the course is full."
+  },
+  {
+    "id": 170,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nAdvisor: The course you want is full, but there's a waiting list.\nStudent: How likely is it to get in?\nAdvisor: Usually a few students drop during the first week.\nStudent: Then I'll join the list and attend the first class anyway.\n\nQuestion: What does the student plan to do?",
+    "options": [
+      "Choose another major",
+      "Join the waiting list",
+      "Drop all courses",
+      "Delay graduation"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Student says he’ll join the list."
+  },
+  {
+    "id": 171,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nMechanic: The brake pads are worn out. If you replace them today, you'll avoid damage to the rotors.\nDriver: How long will it take?\nMechanic: About an hour. Do you want the standard pads or the premium ones?\nDriver: Standard is fine.\n\nQuestion: What needs to be replaced?",
+    "options": [
+      "The rotors",
+      "The tires",
+      "The brake pads",
+      "The battery"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Mechanic says brake pads are worn out."
+  },
+  {
+    "id": 172,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nMechanic: The brake pads are worn out. If you replace them today, you'll avoid damage to the rotors.\nDriver: How long will it take?\nMechanic: About an hour. Do you want the standard pads or the premium ones?\nDriver: Standard is fine.\n\nQuestion: Which option does the driver choose?",
+    "options": [
+      "Premium pads",
+      "Standard pads",
+      "No repair today",
+      "A different mechanic"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Driver says standard is fine."
+  },
+  {
+    "id": 173,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nSpeaker: The workshop was moved from Room A to Room C.\nAttendee: Is the time the same?\nSpeaker: Yes, still at 2 p.m.\nAttendee: Thanks. I almost went to the wrong room.\n\nQuestion: What change is announced?",
+    "options": [
+      "The workshop was cancelled",
+      "The room changed",
+      "The time changed",
+      "The speaker changed"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Moved from Room A to Room C."
+  },
+  {
+    "id": 174,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nSpeaker: The workshop was moved from Room A to Room C.\nAttendee: Is the time the same?\nSpeaker: Yes, still at 2 p.m.\nAttendee: Thanks. I almost went to the wrong room.\n\nQuestion: What stays the same?",
+    "options": [
+      "The room",
+      "The time",
+      "The topic",
+      "The registration fee"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Speaker says still at 2 p.m."
+  },
+  {
+    "id": 175,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nClerk: You can pay the tuition in two installments.\nStudent: Is there any fee for that?\nClerk: There's a small processing fee, but it's waived if you pay online.\nStudent: Then I'll pay online.\n\nQuestion: How can the student avoid the processing fee?",
+    "options": [
+      "Pay in cash",
+      "Pay in full",
+      "Pay online",
+      "Pay early"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Fee is waived if paid online."
+  },
+  {
+    "id": 176,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nClerk: You can pay the tuition in two installments.\nStudent: Is there any fee for that?\nClerk: There's a small processing fee, but it's waived if you pay online.\nStudent: Then I'll pay online.\n\nQuestion: What option does the clerk offer?",
+    "options": [
+      "A discount coupon",
+      "Two installments",
+      "A scholarship",
+      "A loan"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Clerk says pay tuition in two installments."
+  },
+  {
+    "id": 177,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nWoman: I left my umbrella on the bus.\nDriver: Which route?\nWoman: Route 6, around 8 a.m.\nDriver: Items are collected at the depot. Call this number after noon.\n\nQuestion: What did the woman lose?",
+    "options": [
+      "A wallet",
+      "An umbrella",
+      "A phone",
+      "A bag"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "She left her umbrella."
+  },
+  {
+    "id": 178,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nWoman: I left my umbrella on the bus.\nDriver: Which route?\nWoman: Route 6, around 8 a.m.\nDriver: Items are collected at the depot. Call this number after noon.\n\nQuestion: When should she call?",
+    "options": [
+      "Before 8 a.m.",
+      "At noon",
+      "After noon",
+      "In the evening"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Driver says call after noon."
+  },
+  {
+    "id": 179,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,gist",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nTutor: Your writing is clear, but the grammar errors lower your score.\nStudent: Should I memorize rules?\nTutor: Focus on patterns: subject-verb agreement, verb tenses, and articles. Then practice with timed questions.\nStudent: Got it. I'll drill those daily.\n\nQuestion: What is the tutor's main suggestion?",
+    "options": [
+      "Memorize every rule",
+      "Focus on key grammar patterns",
+      "Stop practicing timed questions",
+      "Write longer essays"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Tutor says focus on patterns like agreement, tenses, articles."
+  },
+  {
+    "id": 180,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nTutor: Your writing is clear, but the grammar errors lower your score.\nStudent: Should I memorize rules?\nTutor: Focus on patterns: subject-verb agreement, verb tenses, and articles. Then practice with timed questions.\nStudent: Got it. I'll drill those daily.\n\nQuestion: What will the student do?",
+    "options": [
+      "Drill daily",
+      "Quit tutoring",
+      "Switch to reading only",
+      "Take fewer tests"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Student says he’ll drill those daily."
+  },
+  {
+    "id": 181,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: Can you deliver the desk tomorrow?\nStore: Tomorrow is possible, but only between 9 and 11 a.m.\nCustomer: I won't be home then.\nStore: The next available slot is Saturday afternoon.\nCustomer: Let's do Saturday.\n\nQuestion: When can the store deliver tomorrow?",
+    "options": [
+      "All day",
+      "9–11 a.m.",
+      "After 5 p.m.",
+      "Only at night"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Only between 9 and 11 a.m."
+  },
+  {
+    "id": 182,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: Can you deliver the desk tomorrow?\nStore: Tomorrow is possible, but only between 9 and 11 a.m.\nCustomer: I won't be home then.\nStore: The next available slot is Saturday afternoon.\nCustomer: Let's do Saturday.\n\nQuestion: What delivery time does the customer choose?",
+    "options": [
+      "Tomorrow morning",
+      "Tomorrow evening",
+      "Saturday afternoon",
+      "Sunday"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Customer says Saturday."
+  },
+  {
+    "id": 183,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nStudent: I heard the exam location changed.\nCoordinator: Yes, it's now in Building 4 instead of Building 2.\nStudent: Same entrance?\nCoordinator: No, use the east entrance near the parking lot.\n\nQuestion: What has changed?",
+    "options": [
+      "The exam time",
+      "The exam date",
+      "The exam building",
+      "The exam format"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "It is now in Building 4 instead of 2."
+  },
+  {
+    "id": 184,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nStudent: I heard the exam location changed.\nCoordinator: Yes, it's now in Building 4 instead of Building 2.\nStudent: Same entrance?\nCoordinator: No, use the east entrance near the parking lot.\n\nQuestion: Which entrance should students use?",
+    "options": [
+      "Main entrance",
+      "West entrance",
+      "East entrance near parking",
+      "South entrance"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Coordinator says use the east entrance near the parking lot."
+  },
+  {
+    "id": 185,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: I want a refund for this jacket.\nClerk: Do you have the receipt?\nCustomer: I lost it.\nClerk: Without a receipt, we can offer store credit if it's within 14 days.\nCustomer: That's acceptable.\n\nQuestion: What does the customer not have?",
+    "options": [
+      "The jacket tag",
+      "The credit card",
+      "The receipt",
+      "The packaging"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "He says he lost the receipt."
+  },
+  {
+    "id": 186,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: I want a refund for this jacket.\nClerk: Do you have the receipt?\nCustomer: I lost it.\nClerk: Without a receipt, we can offer store credit if it's within 14 days.\nCustomer: That's acceptable.\n\nQuestion: What can the store offer without a receipt?",
+    "options": [
+      "Cash refund",
+      "Store credit",
+      "Free replacement",
+      "No returns at all"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Clerk offers store credit."
+  },
+  {
+    "id": 187,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nMan: Are we still going hiking tomorrow?\nWoman: If it keeps raining, we should postpone.\nMan: The forecast says it may clear up by noon.\nWoman: Then let's decide in the morning.\n\nQuestion: Why might they postpone the hike?",
+    "options": [
+      "It is too hot",
+      "It is raining",
+      "The trail is closed",
+      "They are busy"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "They mention rain."
+  },
+  {
+    "id": 188,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nMan: Are we still going hiking tomorrow?\nWoman: If it keeps raining, we should postpone.\nMan: The forecast says it may clear up by noon.\nWoman: Then let's decide in the morning.\n\nQuestion: When will they decide?",
+    "options": [
+      "Tonight",
+      "At noon",
+      "In the morning",
+      "Next week"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Woman says decide in the morning."
+  },
+  {
+    "id": 189,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nEmployee: The printer keeps jamming.\nIT: Have you tried removing the paper tray and reloading it?\nEmployee: Yes. It still happens.\nIT: Then it's probably the rollers. I'll send a technician this afternoon.\n\nQuestion: What problem is described?",
+    "options": [
+      "The printer is out of ink",
+      "The printer keeps jamming",
+      "The network is down",
+      "The computer won’t start"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Employee says it keeps jamming."
+  },
+  {
+    "id": 190,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nEmployee: The printer keeps jamming.\nIT: Have you tried removing the paper tray and reloading it?\nEmployee: Yes. It still happens.\nIT: Then it's probably the rollers. I'll send a technician this afternoon.\n\nQuestion: What will IT do?",
+    "options": [
+      "Replace the printer immediately",
+      "Send a technician",
+      "Ask the employee to buy paper",
+      "Ignore the issue"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "IT will send a technician this afternoon."
+  },
+  {
+    "id": 191,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nStudent: Can I use my bus pass on weekends?\nClerk: The standard pass is weekdays only. Weekend access requires the plus pass.\nStudent: How do I upgrade?\nClerk: Pay the difference online and it updates instantly.\n\nQuestion: When can the standard pass be used?",
+    "options": [
+      "Weekends only",
+      "Weekdays only",
+      "Any day",
+      "Only evenings"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Standard pass is weekdays only."
+  },
+  {
+    "id": 192,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nStudent: Can I use my bus pass on weekends?\nClerk: The standard pass is weekdays only. Weekend access requires the plus pass.\nStudent: How do I upgrade?\nClerk: Pay the difference online and it updates instantly.\n\nQuestion: How does the pass upgrade take effect?",
+    "options": [
+      "It takes a week",
+      "It updates instantly",
+      "It requires a new card",
+      "It requires an in-person visit"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Clerk says it updates instantly."
+  },
+  {
+    "id": 193,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nManager: Just a reminder—the meeting starts at 10 sharp.\nEmployee: I thought it was at 10:30.\nManager: We moved it earlier because the client is flying out at noon.\nEmployee: Understood. I'll be there.\n\nQuestion: Why was the meeting moved earlier?",
+    "options": [
+      "The room was booked",
+      "The client is leaving at noon",
+      "The manager has a conflict",
+      "The agenda is shorter"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Client is flying out at noon."
+  },
+  {
+    "id": 194,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nManager: Just a reminder—the meeting starts at 10 sharp.\nEmployee: I thought it was at 10:30.\nManager: We moved it earlier because the client is flying out at noon.\nEmployee: Understood. I'll be there.\n\nQuestion: What time does the meeting start?",
+    "options": [
+      "10:00",
+      "10:30",
+      "11:00",
+      "12:00"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Manager says starts at 10 sharp."
+  },
+  {
+    "id": 195,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nFriend 1: I'm looking for something to improve vocabulary.\nFriend 2: Try reading short articles and noting collocations.\nFriend 1: Any specific site?\nFriend 2: News sites work. Just choose one topic and stick with it.\n\nQuestion: What does Friend 2 recommend?",
+    "options": [
+      "Memorizing lists only",
+      "Reading short articles and noting collocations",
+      "Avoiding news sites",
+      "Changing topics every day"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "He says read short articles and note collocations."
+  },
+  {
+    "id": 196,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nFriend 1: I'm looking for something to improve vocabulary.\nFriend 2: Try reading short articles and noting collocations.\nFriend 1: Any specific site?\nFriend 2: News sites work. Just choose one topic and stick with it.\n\nQuestion: What strategy is suggested for choosing content?",
+    "options": [
+      "Choose one topic and stick with it",
+      "Read random topics daily",
+      "Only read textbooks",
+      "Avoid reading altogether"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Choose one topic and stick with it."
+  },
+  {
+    "id": 197,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: My data runs out too quickly.\nAgent: Your plan has a 5GB cap. We can upgrade you to 15GB.\nCustomer: Will that increase the monthly bill a lot?\nAgent: It’s 25 riyals more.\nCustomer: Let's upgrade.\n\nQuestion: What is the current data limit?",
+    "options": [
+      "5GB",
+      "10GB",
+      "15GB",
+      "Unlimited"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Agent says 5GB cap."
+  },
+  {
+    "id": 198,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nCustomer: My data runs out too quickly.\nAgent: Your plan has a 5GB cap. We can upgrade you to 15GB.\nCustomer: Will that increase the monthly bill a lot?\nAgent: It’s 25 riyals more.\nCustomer: Let's upgrade.\n\nQuestion: How much more will the upgrade cost?",
+    "options": [
+      "15 riyals",
+      "20 riyals",
+      "25 riyals",
+      "50 riyals"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Agent says 25 riyals more."
+  },
+  {
+    "id": 199,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nInstructor: Please print the worksheet before class.\nStudent: I don't have a printer.\nInstructor: That's okay. Bring a laptop and you can fill it out digitally.\nStudent: Perfect.\n\nQuestion: What does the instructor request?",
+    "options": [
+      "Bring a textbook",
+      "Print the worksheet",
+      "Submit homework early",
+      "Buy a calculator"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Instructor says print the worksheet."
+  },
+  {
+    "id": 200,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nInstructor: Please print the worksheet before class.\nStudent: I don't have a printer.\nInstructor: That's okay. Bring a laptop and you can fill it out digitally.\nStudent: Perfect.\n\nQuestion: What alternative does the instructor offer?",
+    "options": [
+      "Borrow a printer",
+      "Fill it out digitally on a laptop",
+      "Skip the worksheet",
+      "Use a phone only"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Bring laptop and fill it out digitally."
+  },
+  {
+    "id": 201,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nResident: There's loud construction every morning at 6.\nOfficer: Construction is allowed after 7 on weekdays.\nResident: Can you talk to them?\nOfficer: We'll send a notice and follow up.\n\nQuestion: What time does construction become allowed?",
+    "options": [
+      "6 a.m.",
+      "7 a.m.",
+      "8 a.m.",
+      "Any time"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Officer says allowed after 7."
+  },
+  {
+    "id": 202,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nResident: There's loud construction every morning at 6.\nOfficer: Construction is allowed after 7 on weekdays.\nResident: Can you talk to them?\nOfficer: We'll send a notice and follow up.\n\nQuestion: What will the officer do?",
+    "options": [
+      "Arrest the workers",
+      "Send a notice and follow up",
+      "Ignore the complaint",
+      "Fine the resident"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "He says they'll send a notice."
+  },
+  {
+    "id": 203,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nProfessor: The essay deadline is Friday at 5 p.m.\nStudent: Can I submit it Saturday?\nProfessor: Late submissions lose 10% per day.\nStudent: Then I'll submit on time.\n\nQuestion: What is the deadline?",
+    "options": [
+      "Friday at 5 p.m.",
+      "Friday at midnight",
+      "Saturday at 5 p.m.",
+      "Sunday"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Professor states Friday at 5 p.m."
+  },
+  {
+    "id": 204,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nProfessor: The essay deadline is Friday at 5 p.m.\nStudent: Can I submit it Saturday?\nProfessor: Late submissions lose 10% per day.\nStudent: Then I'll submit on time.\n\nQuestion: What happens to late submissions?",
+    "options": [
+      "They are not accepted",
+      "They lose 10% per day",
+      "They get extra credit",
+      "They are graded the same"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Professor says late submissions lose 10% per day."
+  },
+  {
+    "id": 205,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nBarista: Would you like your latte hot or iced?\nCustomer: Iced, please. And can you make it decaf?\nBarista: Sure. Anything else?\nCustomer: No, that's all.\n\nQuestion: How does the customer want the latte?",
+    "options": [
+      "Hot and regular",
+      "Hot and decaf",
+      "Iced and decaf",
+      "Iced and extra sweet"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "Customer says iced and decaf."
+  },
+  {
+    "id": 206,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nBarista: Would you like your latte hot or iced?\nCustomer: Iced, please. And can you make it decaf?\nBarista: Sure. Anything else?\nCustomer: No, that's all.\n\nQuestion: What additional request does the customer make?",
+    "options": [
+      "Extra sugar",
+      "Decaf",
+      "Whipped cream",
+      "A larger size"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "He asks to make it decaf."
+  },
+  {
+    "id": 207,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nClerk: One-way or round-trip?\nTraveler: Round-trip, leaving today and coming back Sunday.\nClerk: The return ticket is flexible, but changes must be made 24 hours in advance.\nTraveler: Good to know.\n\nQuestion: What type of ticket does the traveler buy?",
+    "options": [
+      "One-way",
+      "Round-trip",
+      "Monthly pass",
+      "Student discount"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Traveler says round-trip."
+  },
+  {
+    "id": 208,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nClerk: One-way or round-trip?\nTraveler: Round-trip, leaving today and coming back Sunday.\nClerk: The return ticket is flexible, but changes must be made 24 hours in advance.\nTraveler: Good to know.\n\nQuestion: When must changes be made?",
+    "options": [
+      "Anytime",
+      "24 hours in advance",
+      "One hour in advance",
+      "Only at the station"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Clerk says changes must be made 24 hours in advance."
+  },
+  {
+    "id": 209,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nMan: I can’t find the email with the meeting link.\nWoman: Check your spam folder. Sometimes it ends up there.\nMan: If it’s not there?\nWoman: I’ll forward it to you again.\n\nQuestion: What does the woman suggest first?",
+    "options": [
+      "Call the manager",
+      "Check the spam folder",
+      "Cancel the meeting",
+      "Restart the computer"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "She suggests checking the spam folder."
+  },
+  {
+    "id": 210,
+    "section": "Listening",
+    "difficulty": 3,
+    "skillTag": "listening,detail",
+    "prompt": "Listen to the conversation/announcement (text transcript):\n\nMan: I can’t find the email with the meeting link.\nWoman: Check your spam folder. Sometimes it ends up there.\nMan: If it’s not there?\nWoman: I’ll forward it to you again.\n\nQuestion: What will the woman do if needed?",
+    "options": [
+      "Forward the link again",
+      "Print the link",
+      "Change the meeting time",
+      "Report the issue"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "She says she'll forward it again."
+  },
+  {
+    "id": 211,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nMicrolearning breaks a topic into small, focused units that can be completed in minutes. Advocates argue that shorter lessons fit modern schedules and reduce fatigue. Critics, however, warn that fragmenting complex ideas can hide connections between concepts. The most effective programs therefore combine brief lessons with periodic reviews that require learners to integrate ideas, not merely recognize them.\n\nQuestion: What is the main purpose of the passage?",
+    "options": [
+      "To compare two teaching careers",
+      "To explain microlearning and note a limitation",
+      "To argue that long lessons are always better",
+      "To describe the history of online education"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "The passage defines microlearning, presents a criticism, and suggests a balanced approach."
+  },
+  {
+    "id": 212,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nMicrolearning breaks a topic into small, focused units that can be completed in minutes. Advocates argue that shorter lessons fit modern schedules and reduce fatigue. Critics, however, warn that fragmenting complex ideas can hide connections between concepts. The most effective programs therefore combine brief lessons with periodic reviews that require learners to integrate ideas, not merely recognize them.\n\nQuestion: Which suggestion does the passage make for improving microlearning?",
+    "options": [
+      "Avoid reviews to save time",
+      "Use only recognition questions",
+      "Include periodic integrative reviews",
+      "Teach only simple topics"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "It says the most effective programs combine brief lessons with periodic reviews requiring integration."
+  },
+  {
+    "id": 213,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nCity planners once treated trees as decoration, but research now highlights their practical value. Shade lowers surface temperatures, reducing energy demand for cooling. Leaves also trap airborne particles, improving air quality. Yet planting trees without considering local conditions can backfire: some species consume large amounts of water, and poorly placed roots may damage sidewalks. Effective urban forestry therefore requires careful selection and maintenance, not just enthusiasm.\n\nQuestion: Why does the author mention energy demand?",
+    "options": [
+      "To show that trees can reduce cooling needs",
+      "To argue that cities should ban air conditioners",
+      "To explain why trees grow faster in cities",
+      "To compare rural and urban climates"
+    ],
+    "correctIndex": 0,
+    "explanationShort": "Shade lowers surface temperatures, reducing energy demand for cooling."
+  },
+  {
+    "id": 214,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nCity planners once treated trees as decoration, but research now highlights their practical value. Shade lowers surface temperatures, reducing energy demand for cooling. Leaves also trap airborne particles, improving air quality. Yet planting trees without considering local conditions can backfire: some species consume large amounts of water, and poorly placed roots may damage sidewalks. Effective urban forestry therefore requires careful selection and maintenance, not just enthusiasm.\n\nQuestion: What is the author's overall view of planting trees in cities?",
+    "options": [
+      "It is useless",
+      "It is beneficial but must be planned carefully",
+      "It should be done without restrictions",
+      "It is mainly for decoration"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "The passage praises benefits but warns about species choice and placement."
+  },
+  {
+    "id": 215,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nWhen people study late, they often assume more time awake equals better preparation. Yet memory researchers emphasize consolidation: during sleep, the brain reorganizes and stabilizes new information. Skipping sleep may allow extra practice, but it can also reduce the brain’s ability to retain what was practiced. For that reason, strategic review followed by sufficient sleep frequently outperforms last-minute cramming.\n\nQuestion: What does the passage suggest about studying late?",
+    "options": [
+      "It always works best",
+      "It is ineffective because practice is useless",
+      "It can harm retention if sleep is skipped",
+      "It improves consolidation"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "It says skipping sleep can reduce the ability to retain what was practiced."
+  },
+  {
+    "id": 216,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nWhen people study late, they often assume more time awake equals better preparation. Yet memory researchers emphasize consolidation: during sleep, the brain reorganizes and stabilizes new information. Skipping sleep may allow extra practice, but it can also reduce the brain’s ability to retain what was practiced. For that reason, strategic review followed by sufficient sleep frequently outperforms last-minute cramming.\n\nQuestion: Which strategy is recommended?",
+    "options": [
+      "Cram all night",
+      "Review strategically then sleep",
+      "Study only in the morning",
+      "Avoid review sessions"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Strategic review followed by sufficient sleep outperforms cramming."
+  },
+  {
+    "id": 217,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nRemote work offers flexibility, but it can blur boundaries between personal and professional time. Employees may respond to messages late at night to prove productivity, while managers may assume constant availability because the team is distributed across time zones. Organizations that succeed with remote work typically set explicit expectations: response windows, meeting-free blocks, and tools that allow deep focus without constant notifications.\n\nQuestion: What problem is highlighted in the passage?",
+    "options": [
+      "Remote work reduces teamwork",
+      "Remote work blurs time boundaries",
+      "Managers dislike time zones",
+      "Employees cannot use tools"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "It states remote work can blur boundaries and lead to constant availability."
+  },
+  {
+    "id": 218,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nRemote work offers flexibility, but it can blur boundaries between personal and professional time. Employees may respond to messages late at night to prove productivity, while managers may assume constant availability because the team is distributed across time zones. Organizations that succeed with remote work typically set explicit expectations: response windows, meeting-free blocks, and tools that allow deep focus without constant notifications.\n\nQuestion: What solution is mentioned?",
+    "options": [
+      "Ban messaging tools",
+      "Require 24/7 availability",
+      "Set explicit expectations like response windows",
+      "Eliminate all meetings permanently"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "It lists response windows, meeting-free blocks, and focus-friendly tools."
+  },
+  {
+    "id": 219,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nA headline claiming a 'breakthrough' can travel faster than the research itself. Early findings are often based on limited samples or simplified settings, so later studies may fail to replicate them. This does not mean scientists are careless; rather, it reflects the slow process of testing ideas under varied conditions. Readers should therefore look for multiple studies, clear methods, and cautious language before treating a claim as settled fact.\n\nQuestion: Why might later studies fail to replicate early findings?",
+    "options": [
+      "Because scientists stop caring",
+      "Because early studies may use limited samples",
+      "Because headlines are always false",
+      "Because methods are never published"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "The passage says early findings are often based on limited samples or simplified settings."
+  },
+  {
+    "id": 220,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nA headline claiming a 'breakthrough' can travel faster than the research itself. Early findings are often based on limited samples or simplified settings, so later studies may fail to replicate them. This does not mean scientists are careless; rather, it reflects the slow process of testing ideas under varied conditions. Readers should therefore look for multiple studies, clear methods, and cautious language before treating a claim as settled fact.\n\nQuestion: What does the author advise readers to do?",
+    "options": [
+      "Trust headlines immediately",
+      "Look for multiple studies and cautious language",
+      "Ignore scientific news",
+      "Only read opinion pieces"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Readers should look for multiple studies, clear methods, and cautious language."
+  },
+  {
+    "id": 221,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nExpanding a subway line is expensive, so cities sometimes invest in bus rapid transit (BRT) instead. BRT uses dedicated lanes and priority at intersections, which can make travel times more predictable than regular buses. However, if dedicated lanes are not enforced, cars may enter them, reducing the system’s benefit. In practice, BRT performs best when the city commits to both infrastructure and enforcement.\n\nQuestion: What advantage of BRT is mentioned?",
+    "options": [
+      "It is always faster than subways",
+      "It makes travel times more predictable",
+      "It eliminates traffic entirely",
+      "It requires no planning"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Dedicated lanes and intersection priority make times more predictable."
+  },
+  {
+    "id": 222,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nExpanding a subway line is expensive, so cities sometimes invest in bus rapid transit (BRT) instead. BRT uses dedicated lanes and priority at intersections, which can make travel times more predictable than regular buses. However, if dedicated lanes are not enforced, cars may enter them, reducing the system’s benefit. In practice, BRT performs best when the city commits to both infrastructure and enforcement.\n\nQuestion: What condition is necessary for BRT to work well?",
+    "options": [
+      "No enforcement is needed",
+      "Cars should be allowed in lanes",
+      "The city must commit to infrastructure and enforcement",
+      "BRT must replace all buses"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "It says BRT performs best with infrastructure and enforcement."
+  },
+  {
+    "id": 223,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nSome people delete apps to reduce distraction, only to reinstall them a week later. The problem is not willpower alone; many platforms are designed to exploit habitual checking. Digital minimalism therefore emphasizes redesigning routines: setting specific times for communication, turning off nonessential alerts, and choosing a small number of high-value online activities instead of endless scrolling.\n\nQuestion: What does the passage imply about willpower?",
+    "options": [
+      "Willpower is always enough",
+      "Willpower alone may not solve distraction",
+      "Willpower is irrelevant to habits",
+      "Willpower increases scrolling"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "It says the problem is not willpower alone because platforms exploit habits."
+  },
+  {
+    "id": 224,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nSome people delete apps to reduce distraction, only to reinstall them a week later. The problem is not willpower alone; many platforms are designed to exploit habitual checking. Digital minimalism therefore emphasizes redesigning routines: setting specific times for communication, turning off nonessential alerts, and choosing a small number of high-value online activities instead of endless scrolling.\n\nQuestion: What is a key idea of digital minimalism?",
+    "options": [
+      "Use more apps",
+      "Rely on endless scrolling",
+      "Redesign routines and limit alerts",
+      "Never communicate online"
+    ],
+    "correctIndex": 2,
+    "explanationShort": "It recommends setting times, turning off alerts, and focusing on high-value activities."
+  },
+  {
+    "id": 225,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nLearners often focus on rare vocabulary, believing advanced words will raise their level. Yet in reading and listening, frequent words and common collocations appear far more often. Mastery of these high-frequency patterns improves comprehension and also helps learners guess unfamiliar terms from context. As a result, a smart study plan prioritizes what appears repeatedly before chasing what appears occasionally.\n\nQuestion: What mistake do learners commonly make?",
+    "options": [
+      "They study only grammar",
+      "They focus on rare vocabulary too much",
+      "They avoid reading",
+      "They never practice listening"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "The passage says learners focus on rare vocabulary, thinking it will raise their level."
+  },
+  {
+    "id": 226,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nLearners often focus on rare vocabulary, believing advanced words will raise their level. Yet in reading and listening, frequent words and common collocations appear far more often. Mastery of these high-frequency patterns improves comprehension and also helps learners guess unfamiliar terms from context. As a result, a smart study plan prioritizes what appears repeatedly before chasing what appears occasionally.\n\nQuestion: Why are collocations important according to the passage?",
+    "options": [
+      "They are rarely used",
+      "They help comprehension and context guessing",
+      "They replace grammar rules",
+      "They are only for speaking"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "It says mastery improves comprehension and helps guess unfamiliar terms."
+  },
+  {
+    "id": 227,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nMany planners fail because they are too ambitious: they assume every day will run perfectly. When an unexpected event occurs, the plan collapses and motivation drops. A more resilient approach builds buffers and defines a 'minimum viable day'—a small set of tasks that still counts as success. This mindset keeps momentum even when conditions are not ideal.\n\nQuestion: Why do many planners fail?",
+    "options": [
+      "They include buffers",
+      "They assume perfect days",
+      "They set minimum tasks",
+      "They avoid unexpected events"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "It says they assume every day will run perfectly."
+  },
+  {
+    "id": 228,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nMany planners fail because they are too ambitious: they assume every day will run perfectly. When an unexpected event occurs, the plan collapses and motivation drops. A more resilient approach builds buffers and defines a 'minimum viable day'—a small set of tasks that still counts as success. This mindset keeps momentum even when conditions are not ideal.\n\nQuestion: What is a 'minimum viable day'?",
+    "options": [
+      "A day with no tasks",
+      "A small set of tasks that still counts as success",
+      "A day reserved for rest only",
+      "A day when work is doubled"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "Defined as a small set of tasks that still counts as success."
+  },
+  {
+    "id": 229,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nOnline reviews can guide purchases, but they also contain noise. A five-star rating may reflect fast shipping more than product quality, while a one-star rating may come from unrealistic expectations. Savvy readers look for patterns across many reviews, focusing on repeated complaints or consistent praise. They also pay attention to detailed comments that explain context, rather than relying on the star number alone.\n\nQuestion: What point does the passage make about star ratings?",
+    "options": [
+      "They always reflect product quality",
+      "They can be influenced by unrelated factors",
+      "They are never useful",
+      "They are illegal to use"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "It says five-star may reflect shipping, one-star may reflect expectations."
+  },
+  {
+    "id": 230,
+    "section": "Reading",
+    "difficulty": 3,
+    "skillTag": "reading,passage",
+    "prompt": "Read the passage:\n\nOnline reviews can guide purchases, but they also contain noise. A five-star rating may reflect fast shipping more than product quality, while a one-star rating may come from unrealistic expectations. Savvy readers look for patterns across many reviews, focusing on repeated complaints or consistent praise. They also pay attention to detailed comments that explain context, rather than relying on the star number alone.\n\nQuestion: What should readers focus on?",
+    "options": [
+      "Single extreme reviews",
+      "Patterns across many reviews and detailed context",
+      "Only the average star number",
+      "Reviews older than ten years"
+    ],
+    "correctIndex": 1,
+    "explanationShort": "It recommends looking for patterns and detailed comments that explain context."
+  }
+]

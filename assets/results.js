@@ -1,252 +1,381 @@
-import { $, $$, load, save, relToBase, escapeHTML, hashStr } from './app.js';
+// assets/results.js
+// منطق صفحة النتائج + توليد الخطة + مشاركة الخطة (نص تسويقي منسق)
+(function(){
+  'use strict';
 
-function pct(c,t){return t? Math.round((c/t)*100):0;}
+  const SD = window.SITE_DATA || {};
+  const KEY = SD.test?.storageKey || 'ayed_step_level_test_v1';
 
-function choosePlanDays(user){
-  // map studyTime + urgency guess
-  // If user said 15-30m -> longer days; if >2h -> shorter
-  const st = user.studyTime || '30-60';
-  const tookBefore = user.tookBefore;
-  // If previous score exists and close to target, shorter
-  const prev = parseInt(user.prevScore||'0',10);
-  const target = parseInt(user.targetScore||'0',10);
-  const gap = target - prev;
+  const $ = (sel, root=document) => root.querySelector(sel);
+  const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
 
-  if(st === '15' || st === '15-30'){
-    if(gap <= 5 && prev>0) return 15;
-    return 30;
+  function safeText(str){ return (str ?? '').toString(); }
+
+  function escapeHtml(str){
+    return safeText(str)
+      .replaceAll('&','&amp;')
+      .replaceAll('<','&lt;')
+      .replaceAll('>','&gt;')
+      .replaceAll('"','&quot;')
+      .replaceAll("'",'&#039;');
   }
-  if(st === '30-60'){
-    if(gap <= 5 && prev>0) return 15;
-    return 15;
+
+  function levelLabel(p){
+    if(p >= 85) return "Advanced";
+    if(p >= 70) return "Upper-Intermediate";
+    if(p >= 55) return "Intermediate";
+    if(p >= 40) return "Pre-Intermediate";
+    return "Beginner";
   }
-  if(st === '60-120'){
-    if(gap >= 15) return 15;
-    return 7;
+
+  function getWeakSection(sections){
+    const entries = Object.entries(sections || {});
+    if(entries.length === 0) return "—";
+    entries.sort((a,b)=> (a[1].percent ?? 0) - (b[1].percent ?? 0));
+    return entries[0][0];
   }
-  if(st === '120+'){
-    if(gap >= 15) return 7;
-    return 3;
+
+  function humanWindow(code){
+    switch(code){
+      case '1d': return 'خلال 24 ساعة';
+      case '3d': return 'خلال 3 أيام';
+      case '7d': return 'خلال أسبوع';
+      case '30d': return 'خلال شهر';
+      default: return 'غير محدد';
+    }
   }
-  return 15;
-}
 
-function dayBlock(day, focus, tasks){
-  return {day, focus, tasks};
-}
+  function planFor(windowCode, weak){
+    // خطة مختصرة لكنها "تبيع" الفكرة + تحاسب لطيف
+    const base = [
+      "🔸 كل يوم: 45–60 دقيقة (مقسّمة على جلستين) + 10 دقائق مراجعة أخطاء.",
+      "🔸 لا تذاكر كثير بدون قياس: بعد كل جلسة حلّ 10 أسئلة زمنية.",
+      "🔸 اكتب أخطاءك في ورقة: (الخطأ → القاعدة → مثالين)."
+    ];
 
-function buildSchedule(days, weaknesses, user){
-  const focusOrder = weaknesses.length? weaknesses : ['Reading','Grammar','Listening'];
-  const schedule = [];
-  for(let d=1; d<=days; d++){
-    const focus = focusOrder[(d-1) % focusOrder.length];
-    const tasks = [];
-    tasks.push(`جلسة 1 (${user.studyTime} دقيقة تقريبًا): تدريب مركز على ${focus}.`);
-    tasks.push(`جلسة 2: حلّ 8–12 سؤال + راجع الشرح للأخطاء.`);
-    tasks.push(`جلسة 3 (خفيفة): مفردات + مراجعة أخطاء أمس.`);
-    if(d % 3 === 0) tasks.push('مراجعة قصيرة: ارجع لأكثر 5 أخطاء تكررت عليك.');
-    if(d === days) tasks.push('محاكاة أخيرة: حل نموذج مختصر + راجع وقتك وطريقتك.');
-    schedule.push(dayBlock(d, focus, tasks));
-  }
-  return schedule;
-}
+    const focus = (weak === 'Listening')
+      ? ["🎧 تركيزك الأساسي: الاستماع — لأن نتيجتك فيه هي الأقل.", "ابدأ يومك بـ 10 دقائق استماع + تلخيص 3 جمل."]
+      : (weak === 'Reading')
+      ? ["📚 تركيزك الأساسي: القراءة — لأن نتيجتك فيها هي الأقل.", "ابدأ يومك بـ قراءة قصيرة ثم 5 أسئلة فهم واستنتاج."]
+      : ["🧠 تركيزك الأساسي: القواعد/المفردات — لأنها الأقل عندك.", "ابدأ يومك بـ قواعد تتكرر + 15 سؤال تصحيح أخطاء."];
 
-function gendered(user, maleText, femaleText, neutralText){
-  if(user.gender === 'm') return maleText;
-  if(user.gender === 'f') return femaleText;
-  return neutralText;
-}
+    if(windowCode === '1d'){
+      return {
+        title: "خطة إنقاذ خلال 24 ساعة (مركزة)",
+        bullets: [
+          ...focus,
+          "⏱️ 3 جلسات: (Grammar/Reading/Listening) — كل جلسة 35 دقيقة + 10 دقائق مراجعة.",
+          "✅ قبل النوم: راجع أخطاء اليوم فقط — لا تفتح موضوع جديد.",
+          "🤍 دعاء: اللهم يسّر لنا كل صعب."
+        ]
+      };
+    }
 
-function recommend(user, weaknesses){
-  // Basic: if they want "شرح مباشر" show Telegram stars
-  const pref = user.pref || '';
-  const needsFast = ['120+','60-120'].includes(user.studyTime);
-  const hasTime = ['15','15-30'].includes(user.studyTime);
+    if(windowCode === '3d'){
+      return {
+        title: "خطة 3 أيام (ضغط ذكي بدون حوسة)",
+        bullets: [
+          ...focus,
+          "اليوم 1: أساسيات + حل 30 سؤال موزعة.",
+          "اليوم 2: تركيز على أضعف قسم + حل 40 سؤال.",
+          "اليوم 3: محاكاة زمنية + مراجعة الأخطاء + ترتيب الاستراتيجية.",
+          ...base,
+          "🤍 لا تنسى: 15 دقيقة مركزة أفضل من ساعة مشتتة."
+        ]
+      };
+    }
 
-  const rec = [];
-  rec.push({
-    title:'الخطوة الأولى (الأهم)',
-    body:'خلّ الخطة تمشيك يوم بيوم… لا تفتح مصادر كثيرة. طبق الجدول أسبوع واحد وبتلاحظ الفرق.',
-    actions:[
-      {label:'ابدأ اختبار جديد', href: relToBase('pages/quiz.html'), primary:false}
-    ]
-  });
+    if(windowCode === '7d'){
+      return {
+        title: "خطة أسبوع (نظام + تحاسب)",
+        bullets: [
+          ...focus,
+          "اليوم 1–2: تأسيس سريع + تصحيح الأخطاء (تركيز على الضعف).",
+          "اليوم 3–4: رفع السرعة (قراءة/استماع بزمن) + مفردات متكررة.",
+          "اليوم 5: محاكاة كاملة + استخراج قائمة أخطاء.",
+          "اليوم 6: مراجعة مركزة للأخطاء + تمارين قصيرة.",
+          "اليوم 7: تثبيت الاستراتيجية + نوم بدري.",
+          ...base,
+          "✅ تحاسب: إذا فاتك يوم… لا تضاعف، بس ارجع للنظام مباشرة."
+        ]
+      };
+    }
 
-  // Offer courses as optional
-  rec.push({
-    title:'الدورة المكثفة 2026 (اختياري)',
-    body:'إذا تبغى التزام مضبوط + تدريب منظم — المكثفة تعطيك مسار واضح وتحديثات مستمرة.',
-    actions:[
-      {label:'فتح موقع الدورة المكثفة', href: 'https://ayedacademy2026.github.io/ayed-step-academy2026/', primary:true}
-    ]
-  });
-
-  rec.push({
-    title:'الدورة الشاملة الحديثة (اختياري)',
-    body:'إذا هدفك تأسيس أعمق ومسار أطول — الشاملة تناسبك أكثر.',
-    actions:[
-      {label:'فتح الدورة الشاملة', href: 'https://studentservices241445-rgb.github.io/Hilm-STEP-Academy/', primary:false}
-    ]
-  });
-
-  if(pref.includes('live') || pref.includes('direct') || pref.includes('شرح مباشر') || pref.includes('مباشر')){
-    rec.push({
-      title:'دخول مباشر لقنوات تيليجرام (نجوم) — اختياري',
-      body:'إذا تفضل تدخل مباشرة للقنوات: تقدر تختار قناة الشروحات أو الملفات حسب احتياجك.',
-      actions:[
-        {label:'قناة الشروحات (نجوم)', href:'https://t.me/+BKZFAaIFbe4zOTk0', primary:true},
-        {label:'قناة الملفات (نجوم)', href:'https://t.me/+h2mQSOnrQagxYzhk', primary:false},
+    return {
+      title: "خطة شهر (بناء ثابت + نتيجة قوية)",
+      bullets: [
+        ...focus,
+        "الأسبوع 1: تأسيس قواعد + مفردات عالية التكرار + قراءة قصيرة يومياً.",
+        "الأسبوع 2: رفع مستوى القراءة والاستماع بزمن + تصحيح أخطاء متكرر.",
+        "الأسبوع 3: محاكاة أسبوعية كاملة + تحليل دقيق للأخطاء.",
+        "الأسبوع 4: تثبيت السرعة + تقليل الأخطاء + مراجعة نقاط الضعف.",
+        ...base,
+        "🤍 تذكير: الاستمرارية هي الفرق الحقيقي."
       ]
-    });
+    };
   }
 
-  return rec;
-}
+  function buildShareText(data, planObj){
+    const models = (SD.exam?.modelsReference || []).join('، ');
+    const links = SD.links || {};
+    const ch = SD.channels || {};
+    const siteUrl = window.location.origin + window.location.pathname.replace(/\/results\.html$/,'/') ;
 
-function shareText(result, planDays, schedule, weaknesses){
-  const u = result.user || {};
-  const name = u.name || 'طالب/ة';
-  const nameLine = gendered(u, `يا ${name} 👋`, `يا ${name} 👋`, `يا ${name} 👋`);
-  const weakLine = weaknesses.length ? `أضعف أقسامك الآن: ${weaknesses.join('، ')}.` : 'مستواك متوازن — ركّز على الاستمرارية.';
-  const link = 'https://ayedacademy2026.github.io/ayed-step-level-test/';
+    const name = data.user?.name || "طالب/ـة";
+    const p = data.score?.overallPercent ?? 0;
+    const lvl = levelLabel(p);
+    const weak = getWeakSection(data.score?.sections || {});
+    const windowTxt = humanWindow(data.user?.examWindow || '');
 
-  return [
-    "﴿ وَقُلْ رَبِّ زِدْنِي عِلْمًا ﴾ 🤍",
-    "",
-    `${nameLine}`,
-    "سويت اختبار تحديد المستوى وطلعت لي خطة مذاكرة مرتبة ✨",
-    weakLine,
-    "",
-    `خطة ${planDays} يوم (مختصرة):`,
-    `- كل يوم: تدريب مركز + مراجعة أخطاء + مفردات`,
-    `- التحاسب اليومي: راجع أخطاء أمس قبل تبدأ جديد`,
-    "",
-    "إذا تبي تسوي نفس الاختبار وتطلع لك خطة حسب وقتك:",
-    link,
-    "",
-    "الله يوفق الجميع 🌿"
-  ].join('\n');
-}
-
-function render(){
-  const result = load('quiz:result', null);
-  if(!result){
-    location.href = relToBase('pages/quiz.html'); return;
+    // Marketing share message (short enough, but convincing)
+    return [
+      `📌 نتيجة اختبار تحديد المستوى (STEP) — ${name}`,
+      `• النسبة: ${p}%`,
+      `• المستوى التقريبي: ${lvl}`,
+      `• أضعف قسم: ${weak}`,
+      ``,
+      `✅ خطتي (${windowTxt}) — ${planObj.title}:`,
+      ...planObj.bullets.map(b=>`- ${b}`),
+      ``,
+      `🔥 جرّب الاختبار وخذ خطتك فوراً:`,
+      siteUrl,
+      ``,
+      `🎓 لو تبي تمشي بخطة منظمة + تدريب محاكي (مستوى أعلى):`,
+      `• الدورة المكثفة: ${links.intensiveCourseUrl || ''}`,
+      `• الدورة الشاملة: ${links.comprehensiveCourseUrl || ''}`,
+      ``,
+      `⭐ الاشتراك بالنجوم (تيليجرام — الدفع يفتح مباشرة):`,
+      `• قناة الشروحات (${ch.lecturesStars || 3000}⭐): ${ch.lecturesUrl || ''}`,
+      `• قناة الملفات (${ch.filesStars || 2000}⭐): ${ch.filesUrl || ''}`,
+      ``,
+      `ملاحظة: ${SD.exam?.disclaimerShort || 'هذه أسئلة تدريب.'} (محاكاة على نمط النماذج الحديثة حتى ${models}).`,
+      `🤍 الله يكتب لك الدرجة اللي تفرحك.`
+    ].join('\n');
   }
-  const u = result.user || {};
-  $('#hello').textContent = `${u.name || 'طالب/ة'} 👋`;
 
-  const sec = result.sec;
-  const summary = [
-    {k:'Grammar', v: pct(sec.Grammar.c, sec.Grammar.t)},
-    {k:'Reading', v: pct(sec.Reading.c, sec.Reading.t)},
-    {k:'Listening', v: pct(sec.Listening.c, sec.Listening.t)}
-  ].sort((a,b)=>a.v-b.v);
+  async function copyText(text){
+    try{
+      await navigator.clipboard.writeText(text);
+      return true;
+    }catch(_){
+      // fallback
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position='fixed';
+      ta.style.opacity='0';
+      document.body.appendChild(ta);
+      ta.select();
+      try{ document.execCommand('copy'); }catch(__){}
+      ta.remove();
+      return true;
+    }
+  }
 
-  const weaknesses = summary.filter(x=>x.v<70).map(x=>x.k);
-  const planDays = choosePlanDays(u);
-  const schedule = buildSchedule(planDays, weaknesses, u);
+  async function shareText(text){
+    if(navigator.share){
+      try{
+        await navigator.share({ text });
+        return true;
+      }catch(_){}
+    }
+    await copyText(text);
+    return false;
+  }
 
-  // top numbers
-  $('#totalScore').textContent = `${result.totalC}/${result.totalT}`;
-  $('#duration').textContent = `${Math.max(1, Math.round(result.durationSec/60))} دقيقة`;
-  $('#grammarPct').textContent = `${pct(sec.Grammar.c, sec.Grammar.t)}%`;
-  $('#readingPct').textContent = `${pct(sec.Reading.c, sec.Reading.t)}%`;
-  $('#listeningPct').textContent = `${pct(sec.Listening.c, sec.Listening.t)}%`;
+  function setBar(id, percent){
+    const el = document.querySelector(id);
+    if(!el) return;
+    el.style.width = `${Math.max(0, Math.min(100, percent))}%`;
+  }
 
-  // analysis text
-  const calm = gendered(u,
-    'يا بطل، نتيجتك تعطيك اتجاه واضح. نبي نشتغل بذكاء مو بكثرة مصادر.',
-    'يا بطلة، نتيجتك تعطيك اتجاه واضح. نبي نشتغل بذكاء مو بكثرة مصادر.',
-    'نتيجتك تعطيك اتجاه واضح. نبي نشتغل بذكاء مو بكثرة مصادر.'
-  );
-  $('#analysis').textContent = `${calm}\n\n${weaknesses.length? 'ركّز أول أسبوع على: ' + weaknesses.join(' + ') : 'مستواك متوازن — ركّز على رفع السرعة والدقة.'}`;
+  function render(){
+    const raw = localStorage.getItem(KEY);
+    const empty = document.querySelector('#emptyState');
+    const content = document.querySelector('#resultsContent');
+    if(!raw){
+      empty?.classList.remove('hidden');
+      content?.classList.add('hidden');
+      return;
+    }
 
-  // schedule table
-  const tbody = $('#scheduleBody');
-  tbody.innerHTML = '';
-  schedule.forEach(row=>{
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td>اليوم ${row.day}<small>تركيز: ${escapeHTML(row.focus)}</small></td>
-      <td>${escapeHTML(row.tasks[0])}<small>${escapeHTML(row.tasks.slice(1,3).join(' • '))}</small></td>
-    `;
-    tbody.appendChild(tr);
-  });
+    let data=null;
+    try{ data = JSON.parse(raw); }catch(_){}
+    if(!data?.score){
+      empty?.classList.remove('hidden');
+      content?.classList.add('hidden');
+      return;
+    }
 
-  // share
-  const text = shareText(result, planDays, schedule, weaknesses);
-  $('#shareBox').value = text;
-  $('#copyShare').addEventListener('click', async ()=>{
-    await navigator.clipboard.writeText(text);
-    $('#copyShare').textContent='تم النسخ ✅';
-    setTimeout(()=>$('#copyShare').textContent='نسخ النص', 1800);
-  });
+    empty?.classList.add('hidden');
+    content?.classList.remove('hidden');
 
-  // "PDF" via print
-  $('#pdfBtn').addEventListener('click', ()=>{
-    // open printable window
-    const w = window.open('', '_blank');
-    const html = `
-      <html lang="ar" dir="rtl">
-      <head>
-        <meta charset="utf-8"/>
-        <title>جدول مذاكرة - ${escapeHTML(u.name||'طالب/ة')}</title>
-        <style>
-          body{font-family: Arial, sans-serif; padding:20px; direction:rtl}
-          h1{margin:0 0 10px}
-          .meta{color:#555; margin-bottom:14px}
-          table{width:100%; border-collapse:collapse}
-          td,th{border:1px solid #ddd; padding:10px; vertical-align:top}
-          th{background:#f5f5f5}
-          .note{margin-top:14px; color:#444; line-height:1.7}
-        </style>
-      </head>
-      <body>
-        <h1>جدول مذاكرة (${planDays} يوم)</h1>
-        <div class="meta">الاسم: ${escapeHTML(u.name||'طالب/ة')} — التاريخ: ${(new Date()).toLocaleDateString('ar-SA')}</div>
-        <table>
-          <thead><tr><th>اليوم</th><th>المهام</th></tr></thead>
-          <tbody>
-            ${schedule.map(r=>`<tr><td>اليوم ${r.day}<br><small>تركيز: ${escapeHTML(r.focus)}</small></td><td>${escapeHTML(r.tasks.join(' • '))}</td></tr>`).join('')}
-          </tbody>
-        </table>
-        <div class="note">
-          رابط برنامج تحديد المستوى: https://ayedacademy2026.github.io/ayed-step-level-test/
+    const name = data.user?.name || '—';
+    const p = data.score?.overallPercent ?? 0;
+    const lvl = levelLabel(p);
+    const weak = getWeakSection(data.score?.sections || {});
+
+    const uName = document.querySelector('#userName');
+    const overallPercent = document.querySelector('#overallPercent');
+    const overallLevel = document.querySelector('#overallLevel');
+    const weakSection = document.querySelector('#weakSection');
+
+    if(uName) uName.textContent = name;
+    if(overallPercent) overallPercent.textContent = `${p}%`;
+    if(overallLevel) overallLevel.textContent = lvl;
+    if(weakSection) weakSection.textContent = weak;
+
+    // Motivation
+    const mot = document.querySelector('#motivation');
+    if(mot){
+      const wtxt = humanWindow(data.user?.examWindow || '');
+      mot.innerHTML = escapeHtml(`يا ${name}… نتيجتك الآن تمثل مستواك الحالي فقط.\nخلال ${wtxt} تقدر ترفعها بإذن الله إذا التزمت بالخطة (خصوصاً قسم: ${weak}).`)
+        .replace(/\n/g,'<br>');
+    }
+
+    // Section cards
+    const sec = data.score?.sections || {};
+    const grammar = sec.Grammar?.percent ?? 0;
+    const reading = sec.Reading?.percent ?? 0;
+    const listening = sec.Listening?.percent ?? 0;
+
+    const cg = document.querySelector('#cardGrammar');
+    const cr = document.querySelector('#cardReading');
+    const cl = document.querySelector('#cardListening');
+
+    if(cg) cg.innerHTML = sectionCard('Grammar', grammar);
+    if(cr) cr.innerHTML = sectionCard('Reading', reading);
+    if(cl) cl.innerHTML = sectionCard('Listening', listening);
+
+    // fill bars after mount
+    setTimeout(()=>{
+      setBar('#barGrammar > div', grammar);
+      setBar('#barReading > div', reading);
+      setBar('#barListening > div', listening);
+    }, 60);
+
+    // Plan
+    const planObj = planFor(data.user?.examWindow || '30d', weak);
+    const planHost = document.querySelector('#planHost');
+    if(planHost){
+      planHost.innerHTML = `
+        <div class="plan">
+          <h3>${escapeHtml(planObj.title)}</h3>
+          <p>الخطة مبنية على نتيجتك وأضعف قسم عندك — وتقدر تشاركها كنص جاهز “يحمّس” أي شخص يشوفها.</p>
+          <ul>
+            ${planObj.bullets.map(b=>`<li>${escapeHtml(b)}</li>`).join('')}
+          </ul>
+          <div class="sep"></div>
+          <div class="inline-actions">
+            <button id="btnCopyPlan" class="btn outline" type="button">نسخ الخطة كنص</button>
+            <button id="btnSharePlan" class="btn primary" type="button">مشاركة الخطة</button>
+            <a class="btn ghost" href="${escapeHtml(SD.links?.intensiveCourseUrl || '#')}" target="_blank" rel="noopener">الذهاب للدورة المكثفة</a>
+            <a class="btn ghost" href="${escapeHtml(SD.links?.comprehensiveCourseUrl || '#')}" target="_blank" rel="noopener">الدورة الشاملة</a>
+          </div>
+          <p style="margin:10px 0 0; color:rgba(255,255,255,.68); line-height:1.9">
+            ✦ فكرة بسيطة: شارك خطتك مع شخص واحد… واعتبره “مُحاسِب” لك. هذا يرفع التزامك بشكل كبير.
+          </p>
         </div>
-        <script>window.onload=()=>{window.print();}</script>
-      </body>
-      </html>
-    `;
-    w.document.write(html);
-    w.document.close();
-  });
+      `;
+    }
 
-  // recommendations
-  const cards = $('#recs');
-  cards.innerHTML = '';
-  recommend(u, weaknesses).forEach(r=>{
-    const div = document.createElement('div');
-    div.className = 'feature';
-    div.innerHTML = `
-      <h3>${escapeHTML(r.title)}</h3>
-      <p>${escapeHTML(r.body)}</p>
-      <div class="cta-row">
-        ${r.actions.map(a=>`<a class="btn ${a.primary?'primary':'outline'} small" href="${a.href}" target="${a.href.startsWith('http')?'_blank':'_self'}" rel="noopener">${escapeHTML(a.label)}</a>`).join('')}
+    const shareTextMsg = buildShareText(data, planObj);
+
+    // Share buttons (top section)
+    const btnShare = document.querySelector('#btnShare');
+    const btnRegister = document.querySelector('#btnRegister');
+    btnShare?.addEventListener('click', async ()=>{
+      const shared = await shareText(shareTextMsg);
+      toast(shared ? 'تمت المشاركة ✅' : 'تم نسخ الخطة ✅ الصقها في أي مكان');
+    });
+
+    btnRegister?.addEventListener('click', ()=>{
+      window.open(SD.links?.intensiveCourseUrl || '#', '_blank', 'noopener');
+    });
+
+    // Plan buttons
+    setTimeout(()=>{
+      const btnCopy = document.querySelector('#btnCopyPlan');
+      const btnShare2 = document.querySelector('#btnSharePlan');
+
+      btnCopy?.addEventListener('click', async ()=>{
+        await copyText(shareTextMsg);
+        toast('تم نسخ الخطة ✅');
+      });
+
+      btnShare2?.addEventListener('click', async ()=>{
+        const shared = await shareText(shareTextMsg);
+        toast(shared ? 'تمت المشاركة ✅' : 'تم نسخ الخطة ✅ الصقها في أي مكان');
+      });
+    }, 0);
+
+    // rating stars (visual)
+    const stars = document.querySelector('#ratingStars');
+    if(stars){
+      const rating = Math.max(3.5, Math.min(5, 3.6 + (p/100)*1.4)); // 3.6–5.0
+      stars.innerHTML = renderStars(rating) + `<div style="margin-top:6px; color:rgba(255,255,255,.72); font-weight:900">تقييم تجربة الخطة: ${rating.toFixed(1)}/5</div>`;
+    }
+  }
+
+  function sectionCard(name, percent){
+    const label = name === 'Grammar' ? 'Grammar + Vocabulary' : name;
+    return `
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+        <b>${escapeHtml(label)}</b>
+        <span class="pill">${escapeHtml(percent + '%')}</span>
+      </div>
+      <div style="height:10px"></div>
+      <div class="bar" id="bar${escapeHtml(name)}"><div></div></div>
+      <div style="margin-top:10px; color:rgba(255,255,255,.70); line-height:1.9">
+        ${escapeHtml(tipFor(name, percent))}
       </div>
     `;
-    cards.appendChild(div);
-  });
+  }
 
-  // sticky nav buttons
-  $$('.results-nav a').forEach(a=>{
-    a.addEventListener('click', (e)=>{
-      const href = a.getAttribute('href');
-      if(!href?.startsWith('#')) return;
-      e.preventDefault();
-      document.querySelector(href)?.scrollIntoView({behavior:'smooth', block:'start'});
-    });
-  });
-}
+  function tipFor(name, percent){
+    if(name==='Grammar'){
+      if(percent >= 80) return "ممتاز — ركّز على الأخطاء النادرة + أسئلة زمنية.";
+      if(percent >= 60) return "جيّد — ركّز على التراكيب المتكررة (tenses / articles / prepositions).";
+      return "نقطة تحتاج شغل — ابدأ بقواعد متكررة + تصحيح أخطاء يومي.";
+    }
+    if(name==='Reading'){
+      if(percent >= 80) return "ممتاز — زِد السرعة واشتغل على الاستنتاج.";
+      if(percent >= 60) return "جيّد — اقرأ نص قصير يوميًا + ركّز على main idea و inference.";
+      return "نقطة تحتاج شغل — ابدأ بمقاطع قصيرة ثم أسئلة فهم بزمن.";
+    }
+    if(name==='Listening'){
+      if(percent >= 80) return "ممتاز — اشتغل على التفاصيل الدقيقة والتقاط الفكرة بسرعة.";
+      if(percent >= 60) return "جيّد — زِد التعرض اليومي 10–15 دقيقة + تلخيص.";
+      return "نقطة تحتاج شغل — استماع يومي قصير + كتابة كلمات مفتاحية.";
+    }
+    return "استمر.";
+  }
 
-render();
+  function renderStars(rating){
+    const full = Math.floor(rating);
+    const half = (rating - full) >= 0.5;
+    const empty = 5 - full - (half ? 1 : 0);
+
+    const star = (cls)=>`<svg class="${cls}" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <path d="M12 17.3l-6.2 3.7 1.7-7.1L2 9.2l7.3-.6L12 2l2.7 6.6 7.3.6-5.5 4.7 1.7 7.1z" fill="${cls==='on' ? 'rgba(255,211,107,.95)' : cls==='half' ? 'rgba(255,211,107,.55)' : 'rgba(255,255,255,.18)'}"/>
+    </svg>`;
+
+    return `<div style="display:flex; gap:4px; align-items:center">
+      ${Array.from({length: full}).map(()=>star('on')).join('')}
+      ${half ? star('half') : ''}
+      ${Array.from({length: empty}).map(()=>star('off')).join('')}
+    </div>`;
+  }
+
+  function toast(msg){
+    const host = document.querySelector('.toast-container');
+    if(!host) return;
+    const t = document.createElement('div');
+    t.className = 'toast';
+    t.innerHTML = `<div class="bubble" aria-hidden="true">✅</div><div><p>${escapeHtml(msg)}</p><small>الآن</small></div>`;
+    host.appendChild(t);
+    setTimeout(()=>{ t.style.opacity='0'; t.style.transform='translateY(6px)'; }, 2800);
+    setTimeout(()=>{ t.remove(); }, 3500);
+  }
+
+  document.addEventListener('DOMContentLoaded', render);
+})();
