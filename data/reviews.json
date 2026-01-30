@@ -1,0 +1,37 @@
+{
+  "reviews": [
+    {
+      "id": "R-240101-0001",
+      "displayName": "طالبة من الرياض",
+      "city": "الرياض",
+      "stars": 5,
+      "tag": "Reading",
+      "text": "الخطة طلعت لي وش أركز عليه بالضبط… وأخيرًا وقفت تشتت.",
+      "approved": true,
+      "consent": true,
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "R-240101-0002",
+      "displayName": "طالب من جدة",
+      "city": "جدة",
+      "stars": 5,
+      "tag": "Grammar",
+      "text": "التصحيح الفوري مع الشرح المختصر فرق معي… صرت أعرف سبب الإجابة.",
+      "approved": true,
+      "consent": true,
+      "createdAt": "2026-01-22"
+    },
+    {
+      "id": "R-240101-0003",
+      "displayName": "طالبة",
+      "city": "الدمام",
+      "stars": 4,
+      "tag": "Listening",
+      "text": "قسم الاستماع كان يخوفني… الحين صار عندي طريقة ألتقط الفكرة.",
+      "approved": true,
+      "consent": true,
+      "createdAt": "2026-01-25"
+    }
+  ]
+}

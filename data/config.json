@@ -1,0 +1,29 @@
+{
+  "site": {
+    "name_ar": "اختبار تحديد المستوى STEP 2026",
+    "short_ar": "اختبار STEP",
+    "brand_ar": "أكاديمية عايد STEP",
+    "brand_en": "Ayed STEP Academy",
+    "description": "اختبار تحديد مستوى تفاعلي + تحليل فوري + خطة مذاكرة مفصلة حسب وقتك — مبني كأسلوب محاكاة تدريبية.",
+    "basePathHint": "auto"
+  },
+  "links": {
+    "levelTestSite": "https://ayedacademy2026.github.io/ayed-step-level-test/",
+    "intensiveCourseSite": "https://ayedacademy2026.github.io/ayed-step-academy2026/",
+    "fullCourseSite": "https://studentservices241445-rgb.github.io/Hilm-STEP-Academy/",
+    "telegramPaidExplanations": "https://t.me/+BKZFAaIFbe4zOTk0",
+    "telegramPaidFiles": "https://t.me/+h2mQSOnrQagxYzhk"
+  },
+  "ui": {
+    "locale": "ar-SA",
+    "rtl": true,
+    "toastIntervalSec": 45,
+    "toastJitterSec": 5,
+    "enablePWA": true,
+    "enableToasts": true
+  },
+  "reviews": {
+    "requireConsent": true,
+    "requireApproved": true
+  }
+}

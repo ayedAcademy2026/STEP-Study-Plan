@@ -1,0 +1,804 @@
+{
+  "questions": [
+    {
+      "id": "Q001",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose the correct option: If Sarah ______ earlier, she would have caught the train.",
+      "options": [
+        "leaves",
+        "left",
+        "had left",
+        "has left"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "هنا شرط في الماضي (Third conditional): If + past perfect (had left) ثم would have + V3."
+    },
+    {
+      "id": "Q002",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Select the best completion: Neither the teacher nor the students ______ aware of the change.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "Neither...nor: الفعل يتبع الأقرب (students جمع) → were."
+    },
+    {
+      "id": "Q003",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose the correct sentence punctuation:",
+      "options": [
+        "The professor said, \"Please submit your assignment by Monday.\"",
+        "The professor said \"Please submit your assignment by Monday\".",
+        "The professor said: \"Please submit your assignment, by Monday.\"",
+        "The professor said, \"Please submit your assignment by Monday\""
+      ],
+      "answerIndex": 0,
+      "explanationAr": "علامات الاقتباس مع النقطة داخل الاقتباس في الإنجليزية الأمريكية غالبًا، وهنا الصياغة الأولى هي الأدق."
+    },
+    {
+      "id": "Q004",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Pick the correct word order:",
+      "options": [
+        "Hardly had I arrived when the meeting started.",
+        "Hardly I had arrived when started the meeting.",
+        "Hardly had arrived I when the meeting started.",
+        "Hardly had I arrived when started the meeting."
+      ],
+      "answerIndex": 0,
+      "explanationAr": "Hardly/Seldom/Not only في بداية الجملة يتبعها قلب (inversion): Hardly had I arrived ..."
+    },
+    {
+      "id": "Q005",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose the correct form: She suggested that he ______ more carefully.",
+      "options": [
+        "drives",
+        "drive",
+        "drove",
+        "driving"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "بعد suggest that (صيغة الطلب) نستخدم base form: drive."
+    },
+    {
+      "id": "Q006",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose the correct option: The report, along with the attachments, ______ on my desk.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "subject هو report مفرد، along with لا تغيّر الفاعل → is."
+    },
+    {
+      "id": "Q007",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Complete: By the time we arrive, they ______ for two hours.",
+      "options": [
+        "will have been waiting",
+        "will wait",
+        "are waiting",
+        "have waited"
+      ],
+      "answerIndex": 0,
+      "explanationAr": "By the time + مستقبل: نستخدم future perfect continuous → will have been waiting."
+    },
+    {
+      "id": "Q008",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: I’m used to ______ up early during weekdays.",
+      "options": [
+        "wake",
+        "waking",
+        "woke",
+        "to wake"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "be used to + V-ing → waking."
+    },
+    {
+      "id": "Q009",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: The book ______ on the table belongs to my sister.",
+      "options": [
+        "lay",
+        "lying",
+        "lies",
+        "lain"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "اسم موصول مختصر: book (that is) lying ... → lying."
+    },
+    {
+      "id": "Q010",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose the correct connector: She studied hard; ______, she didn’t get the score she wanted.",
+      "options": [
+        "therefore",
+        "however",
+        "because",
+        "so that"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "تعارض بين الجملتين → however."
+    },
+    {
+      "id": "Q011",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose the correct option: I wish I ______ more time yesterday.",
+      "options": [
+        "have",
+        "had",
+        "would have",
+        "will have"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "wish للماضي → past perfect/ past simple حسب المعنى؛ هنا “أمس” ندم على الماضي → had."
+    },
+    {
+      "id": "Q012",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: It’s high time we ______ serious about our plan.",
+      "options": [
+        "are",
+        "be",
+        "were",
+        "been"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "it’s high time + past simple (معنى حاضر) → were."
+    },
+    {
+      "id": "Q013",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Select: The committee ______ to announce its decision tomorrow.",
+      "options": [
+        "are going",
+        "is going",
+        "were going",
+        "going"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "committee اسم جمعي غالبًا مفرد أمريكيًا → is going."
+    },
+    {
+      "id": "Q014",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: This is the first time I ______ such a challenging exam.",
+      "options": [
+        "take",
+        "took",
+        "have taken",
+        "had taken"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "first time + present perfect → have taken."
+    },
+    {
+      "id": "Q015",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: Not only ______ late, but he also forgot the documents.",
+      "options": [
+        "he arrived",
+        "did he arrive",
+        "arrived he",
+        "he did arrive"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "Not only في البداية → inversion: did he arrive."
+    },
+    {
+      "id": "Q016",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: The data ______ inconsistent with the conclusion.",
+      "options": [
+        "seems",
+        "seem",
+        "is seem",
+        "are seem"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "data جمع (في سياق أكاديمي) → seem."
+    },
+    {
+      "id": "Q017",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: My brother doesn’t like spicy food, and ______.",
+      "options": [
+        "so do I",
+        "neither do I",
+        "neither I do",
+        "I don’t too"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "نفي + and → neither do I."
+    },
+    {
+      "id": "Q018",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: The manager demanded that the report ______ by 5 p.m.",
+      "options": [
+        "be submitted",
+        "is submitted",
+        "submitted",
+        "submits"
+      ],
+      "answerIndex": 0,
+      "explanationAr": "demand that + base form passive → be submitted."
+    },
+    {
+      "id": "Q019",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose: She had her laptop ______ yesterday.",
+      "options": [
+        "repair",
+        "repaired",
+        "repairs",
+        "repairing"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "have something done → repaired."
+    },
+    {
+      "id": "Q020",
+      "section": "Grammar",
+      "difficulty": "hard",
+      "passage": null,
+      "audioTranscript": null,
+      "prompt": "Choose the correct capitalization:",
+      "options": [
+        "the Ministry of Education announced a new policy.",
+        "the ministry of education announced a new policy.",
+        "The ministry of education announced a new policy.",
+        "the Ministry Of Education announced a new policy."
+      ],
+      "answerIndex": 0,
+      "explanationAr": "أسماء الجهات الرسمية Capitalize: Ministry of Education."
+    },
+    {
+      "id": "Q021",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "In many regions, water scarcity is not caused by the absence of rain alone, but by mismanagement. When leakage in old pipelines is ignored, cities can lose a significant portion of treated water before it reaches homes. In addition, some farms still rely on inefficient irrigation methods that waste water through evaporation.",
+      "audioTranscript": null,
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        "Rainfall is the only cause of water scarcity.",
+        "Water scarcity is often worsened by human mismanagement.",
+        "Old pipelines cannot be repaired.",
+        "Farms should stop using irrigation."
+      ],
+      "answerIndex": 1,
+      "explanationAr": "الفكرة الرئيسية: المشكلة ليست المطر فقط بل سوء الإدارة."
+    },
+    {
+      "id": "Q022",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "In many regions, water scarcity is not caused by the absence of rain alone, but by mismanagement. When leakage in old pipelines is ignored, cities can lose a significant portion of treated water before it reaches homes. In addition, some farms still rely on inefficient irrigation methods that waste water through evaporation.",
+      "audioTranscript": null,
+      "prompt": "Which detail supports the idea of mismanagement?",
+      "options": [
+        "Cities lose treated water due to leakage.",
+        "Rain always falls equally.",
+        "Evaporation is impossible.",
+        "Homes do not need water."
+      ],
+      "answerIndex": 0,
+      "explanationAr": "ذكر تسرب الأنابيب وخسارة المياه المعالجة مثال على سوء الإدارة."
+    },
+    {
+      "id": "Q023",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "In many regions, water scarcity is not caused by the absence of rain alone, but by mismanagement. When leakage in old pipelines is ignored, cities can lose a significant portion of treated water before it reaches homes. In addition, some farms still rely on inefficient irrigation methods that waste water through evaporation.",
+      "audioTranscript": null,
+      "prompt": "The word 'inefficient' is closest in meaning to:",
+      "options": [
+        "costly",
+        "wasteful",
+        "modern",
+        "rare"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "inefficient = غير فعّال → يسبب هدرًا."
+    },
+    {
+      "id": "Q024",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "In many regions, water scarcity is not caused by the absence of rain alone, but by mismanagement. When leakage in old pipelines is ignored, cities can lose a significant portion of treated water before it reaches homes. In addition, some farms still rely on inefficient irrigation methods that waste water through evaporation.",
+      "audioTranscript": null,
+      "prompt": "According to the passage, evaporation mainly affects:",
+      "options": [
+        "homes",
+        "pipelines",
+        "farms' irrigation",
+        "rain clouds"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "ذكر أن طرق الري تهدر الماء عبر التبخر."
+    },
+    {
+      "id": "Q025",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Research suggests that sleep strengthens memory by helping the brain organize new information. Students who sleep well after studying often recall material more accurately than those who stay awake late. However, sleeping more is not always better; consistent sleep schedules tend to matter more than occasional long nights.",
+      "audioTranscript": null,
+      "prompt": "What does the passage suggest about sleep?",
+      "options": [
+        "It weakens memory.",
+        "It helps organize new information.",
+        "It replaces the need to study.",
+        "It always improves grades immediately."
+      ],
+      "answerIndex": 1,
+      "explanationAr": "النص يقول النوم يقوّي الذاكرة بتنظيم المعلومات."
+    },
+    {
+      "id": "Q026",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Research suggests that sleep strengthens memory by helping the brain organize new information. Students who sleep well after studying often recall material more accurately than those who stay awake late. However, sleeping more is not always better; consistent sleep schedules tend to matter more than occasional long nights.",
+      "audioTranscript": null,
+      "prompt": "The contrast in the passage is between:",
+      "options": [
+        "sleep and hunger",
+        "long sleep and consistent schedules",
+        "students and teachers",
+        "memory and exercise"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "ذكر أن “النوم أكثر ليس دائمًا أفضل” وأن الثبات أهم."
+    },
+    {
+      "id": "Q027",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Research suggests that sleep strengthens memory by helping the brain organize new information. Students who sleep well after studying often recall material more accurately than those who stay awake late. However, sleeping more is not always better; consistent sleep schedules tend to matter more than occasional long nights.",
+      "audioTranscript": null,
+      "prompt": "The word 'recall' is closest in meaning to:",
+      "options": [
+        "forget",
+        "repeat",
+        "remember",
+        "record"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "recall = يتذكر."
+    },
+    {
+      "id": "Q028",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Research suggests that sleep strengthens memory by helping the brain organize new information. Students who sleep well after studying often recall material more accurately than those who stay awake late. However, sleeping more is not always better; consistent sleep schedules tend to matter more than occasional long nights.",
+      "audioTranscript": null,
+      "prompt": "Which statement is supported?",
+      "options": [
+        "Occasional long nights are the best strategy.",
+        "Consistency in sleep schedule is important.",
+        "Staying awake late improves accuracy.",
+        "The brain cannot organize information."
+      ],
+      "answerIndex": 1,
+      "explanationAr": "ذكر أن جداول نوم ثابتة أهم."
+    },
+    {
+      "id": "Q029",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Automation has changed workplaces by taking over repetitive tasks. While this can increase productivity, it also requires workers to learn new skills. Companies that invest in training often adapt more smoothly than those that treat automation as a simple replacement for humans.",
+      "audioTranscript": null,
+      "prompt": "What is the main idea?",
+      "options": [
+        "Automation only harms workers.",
+        "Automation increases productivity but demands new skills.",
+        "Repetitive tasks are disappearing everywhere.",
+        "Training is unnecessary."
+      ],
+      "answerIndex": 1,
+      "explanationAr": "الفكرة: الأتمتة ترفع الإنتاجية لكنها تتطلب مهارات وتدريب."
+    },
+    {
+      "id": "Q030",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Automation has changed workplaces by taking over repetitive tasks. While this can increase productivity, it also requires workers to learn new skills. Companies that invest in training often adapt more smoothly than those that treat automation as a simple replacement for humans.",
+      "audioTranscript": null,
+      "prompt": "According to the passage, companies adapt better when they:",
+      "options": [
+        "avoid automation",
+        "replace humans completely",
+        "invest in training",
+        "ignore productivity"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "ذكر أن الاستثمار في التدريب يساعد على التكيف."
+    },
+    {
+      "id": "Q031",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Automation has changed workplaces by taking over repetitive tasks. While this can increase productivity, it also requires workers to learn new skills. Companies that invest in training often adapt more smoothly than those that treat automation as a simple replacement for humans.",
+      "audioTranscript": null,
+      "prompt": "The word 'repetitive' is closest in meaning to:",
+      "options": [
+        "dangerous",
+        "repeated",
+        "creative",
+        "random"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "repetitive = متكرر."
+    },
+    {
+      "id": "Q032",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Automation has changed workplaces by taking over repetitive tasks. While this can increase productivity, it also requires workers to learn new skills. Companies that invest in training often adapt more smoothly than those that treat automation as a simple replacement for humans.",
+      "audioTranscript": null,
+      "prompt": "The passage implies that automation is:",
+      "options": [
+        "only a replacement",
+        "a tool that changes skill needs",
+        "a temporary trend",
+        "illegal"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "النص يوضح أنها تغيّر طبيعة المهارات المطلوبة."
+    },
+    {
+      "id": "Q033",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Cultural norms influence how people communicate. In some cultures, direct disagreement is considered rude, so people prefer indirect language. Misunderstandings can occur when someone interprets indirect responses as uncertainty rather than politeness.",
+      "audioTranscript": null,
+      "prompt": "The passage mainly discusses:",
+      "options": [
+        "grammar rules",
+        "cultural differences in communication",
+        "technology trends",
+        "health habits"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "الفكرة: اختلاف الأعراف الثقافية في طريقة التواصل."
+    },
+    {
+      "id": "Q034",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Cultural norms influence how people communicate. In some cultures, direct disagreement is considered rude, so people prefer indirect language. Misunderstandings can occur when someone interprets indirect responses as uncertainty rather than politeness.",
+      "audioTranscript": null,
+      "prompt": "Misunderstandings happen when:",
+      "options": [
+        "people always disagree directly",
+        "indirectness is seen as uncertainty",
+        "politeness is ignored everywhere",
+        "everyone speaks the same way"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "ذكر أن تفسير غير مباشر كعدم يقين يسبب سوء فهم."
+    },
+    {
+      "id": "Q035",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Cultural norms influence how people communicate. In some cultures, direct disagreement is considered rude, so people prefer indirect language. Misunderstandings can occur when someone interprets indirect responses as uncertainty rather than politeness.",
+      "audioTranscript": null,
+      "prompt": "The word 'rude' is closest to:",
+      "options": [
+        "polite",
+        "impolite",
+        "quiet",
+        "clear"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "rude = غير مهذب/وقح → impolite."
+    },
+    {
+      "id": "Q036",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Cultural norms influence how people communicate. In some cultures, direct disagreement is considered rude, so people prefer indirect language. Misunderstandings can occur when someone interprets indirect responses as uncertainty rather than politeness.",
+      "audioTranscript": null,
+      "prompt": "Indirect language is used to:",
+      "options": [
+        "show rudeness",
+        "avoid being polite",
+        "reduce direct disagreement",
+        "increase uncertainty"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "ذكر أنه لتجنب الاعتراض المباشر."
+    },
+    {
+      "id": "Q037",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Many people try to improve health by making drastic changes, but small consistent habits are often more sustainable. Replacing sugary drinks with water, walking for twenty minutes daily, and preparing simple meals at home can have noticeable effects over time.",
+      "audioTranscript": null,
+      "prompt": "What does the passage recommend?",
+      "options": [
+        "Only drastic changes work.",
+        "Small consistent habits are sustainable.",
+        "Avoid drinking water.",
+        "Stop walking daily."
+      ],
+      "answerIndex": 1,
+      "explanationAr": "الفكرة: العادات الصغيرة المنتظمة أكثر استدامة."
+    },
+    {
+      "id": "Q038",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Many people try to improve health by making drastic changes, but small consistent habits are often more sustainable. Replacing sugary drinks with water, walking for twenty minutes daily, and preparing simple meals at home can have noticeable effects over time.",
+      "audioTranscript": null,
+      "prompt": "Which habit is mentioned?",
+      "options": [
+        "Reading novels",
+        "Replacing sugary drinks with water",
+        "Sleeping at noon",
+        "Driving daily"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "ذكر استبدال المشروبات السكرية بالماء."
+    },
+    {
+      "id": "Q039",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Many people try to improve health by making drastic changes, but small consistent habits are often more sustainable. Replacing sugary drinks with water, walking for twenty minutes daily, and preparing simple meals at home can have noticeable effects over time.",
+      "audioTranscript": null,
+      "prompt": "The phrase 'over time' suggests:",
+      "options": [
+        "immediately",
+        "gradually",
+        "never",
+        "rarely"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "over time = تدريجيًا مع مرور الوقت."
+    },
+    {
+      "id": "Q040",
+      "section": "Reading",
+      "difficulty": "medium",
+      "passage": "Many people try to improve health by making drastic changes, but small consistent habits are often more sustainable. Replacing sugary drinks with water, walking for twenty minutes daily, and preparing simple meals at home can have noticeable effects over time.",
+      "audioTranscript": null,
+      "prompt": "The best title would be:",
+      "options": [
+        "The dangers of water",
+        "Quick health fixes",
+        "Sustainable health improvements",
+        "Why meals are expensive"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "عنوان مناسب: تحسينات صحية مستدامة."
+    },
+    {
+      "id": "Q041",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Student: Professor, I’m worried about the exam next Tuesday.  \nProfessor: Don’t panic. Review chapters 3 to 5 and focus on the examples we discussed.  \nStudent: Should I memorize every detail?  \nProfessor: No. Understand the main concepts. Also, arrive early so you have time to relax.",
+      "prompt": "When is the exam?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "ذكر الأستاذ “next Tuesday”."
+    },
+    {
+      "id": "Q042",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Student: Professor, I’m worried about the exam next Tuesday.  \nProfessor: Don’t panic. Review chapters 3 to 5 and focus on the examples we discussed.  \nStudent: Should I memorize every detail?  \nProfessor: No. Understand the main concepts. Also, arrive early so you have time to relax.",
+      "prompt": "What should the student focus on?",
+      "options": [
+        "Memorizing every detail",
+        "Main concepts and examples",
+        "Skipping chapters",
+        "Arriving late"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "الأستاذ قال: Understand the main concepts + focus on examples."
+    },
+    {
+      "id": "Q043",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Student: Professor, I’m worried about the exam next Tuesday.  \nProfessor: Don’t panic. Review chapters 3 to 5 and focus on the examples we discussed.  \nStudent: Should I memorize every detail?  \nProfessor: No. Understand the main concepts. Also, arrive early so you have time to relax.",
+      "prompt": "What advice is given about arriving?",
+      "options": [
+        "Arrive early to relax",
+        "Arrive exactly on time",
+        "Arrive late to avoid waiting",
+        "Do not arrive"
+      ],
+      "answerIndex": 0,
+      "explanationAr": "قال: arrive early so you have time to relax."
+    },
+    {
+      "id": "Q044",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Student: Professor, I’m worried about the exam next Tuesday.  \nProfessor: Don’t panic. Review chapters 3 to 5 and focus on the examples we discussed.  \nStudent: Should I memorize every detail?  \nProfessor: No. Understand the main concepts. Also, arrive early so you have time to relax.",
+      "prompt": "The professor’s tone is:",
+      "options": [
+        "angry",
+        "encouraging",
+        "sarcastic",
+        "confused"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "نبرة مطمئنة وتشجيعية."
+    },
+    {
+      "id": "Q045",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Student: Professor, I’m worried about the exam next Tuesday.  \nProfessor: Don’t panic. Review chapters 3 to 5 and focus on the examples we discussed.  \nStudent: Should I memorize every detail?  \nProfessor: No. Understand the main concepts. Also, arrive early so you have time to relax.",
+      "prompt": "Which chapters should be reviewed?",
+      "options": [
+        "1–2",
+        "2–4",
+        "3–5",
+        "5–7"
+      ],
+      "answerIndex": 2,
+      "explanationAr": "قال: chapters 3 to 5."
+    },
+    {
+      "id": "Q046",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Announcer: Flight 214 to Dammam will depart at 3:40 p.m. from Gate 12.  \nPassenger: Excuse me, I thought it was 3:10.  \nStaff: The schedule changed due to weather. Boarding starts at 3:15, but the departure is 3:40.  \nPassenger: Thanks. Where is Gate 12?  \nStaff: Go straight, then turn left after the coffee shop.",
+      "prompt": "What is the departure time?",
+      "options": [
+        "3:10 p.m.",
+        "3:15 p.m.",
+        "3:40 p.m.",
+        "4:00 p.m."
+      ],
+      "answerIndex": 2,
+      "explanationAr": "المذيع قال departure at 3:40."
+    },
+    {
+      "id": "Q047",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Announcer: Flight 214 to Dammam will depart at 3:40 p.m. from Gate 12.  \nPassenger: Excuse me, I thought it was 3:10.  \nStaff: The schedule changed due to weather. Boarding starts at 3:15, but the departure is 3:40.  \nPassenger: Thanks. Where is Gate 12?  \nStaff: Go straight, then turn left after the coffee shop.",
+      "prompt": "Why did the schedule change?",
+      "options": [
+        "traffic",
+        "weather",
+        "staff shortage",
+        "maintenance"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "ذكر بسبب الطقس."
+    },
+    {
+      "id": "Q048",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Announcer: Flight 214 to Dammam will depart at 3:40 p.m. from Gate 12.  \nPassenger: Excuse me, I thought it was 3:10.  \nStaff: The schedule changed due to weather. Boarding starts at 3:15, but the departure is 3:40.  \nPassenger: Thanks. Where is Gate 12?  \nStaff: Go straight, then turn left after the coffee shop.",
+      "prompt": "When does boarding start?",
+      "options": [
+        "3:10",
+        "3:15",
+        "3:40",
+        "2:40"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "staff قال boarding starts at 3:15."
+    },
+    {
+      "id": "Q049",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Announcer: Flight 214 to Dammam will depart at 3:40 p.m. from Gate 12.  \nPassenger: Excuse me, I thought it was 3:10.  \nStaff: The schedule changed due to weather. Boarding starts at 3:15, but the departure is 3:40.  \nPassenger: Thanks. Where is Gate 12?  \nStaff: Go straight, then turn left after the coffee shop.",
+      "prompt": "Where should the passenger turn left?",
+      "options": [
+        "after the gate",
+        "after the coffee shop",
+        "before the coffee shop",
+        "at the entrance"
+      ],
+      "answerIndex": 1,
+      "explanationAr": "قال: turn left after the coffee shop."
+    },
+    {
+      "id": "Q050",
+      "section": "Listening",
+      "difficulty": "medium",
+      "passage": null,
+      "audioTranscript": "Announcer: Flight 214 to Dammam will depart at 3:40 p.m. from Gate 12.  \nPassenger: Excuse me, I thought it was 3:10.  \nStaff: The schedule changed due to weather. Boarding starts at 3:15, but the departure is 3:40.  \nPassenger: Thanks. Where is Gate 12?  \nStaff: Go straight, then turn left after the coffee shop.",
+      "prompt": "The passenger’s initial belief was that departure was:",
+      "options": [
+        "3:10",
+        "3:15",
+        "3:40",
+        "4:10"
+      ],
+      "answerIndex": 0,
+      "explanationAr": "Passenger said: I thought it was 3:10."
+    }
+  ]
+}
